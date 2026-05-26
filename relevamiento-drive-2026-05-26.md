@@ -1,595 +1,205 @@
 # Relevamiento profundo del Drive `7. Page Breakdowns and Wireframes`
 
-Fecha de relevamiento: `2026-05-26`  
-Drive analizado: `https://drive.google.com/drive/folders/12p9jdfB1MrOiV8sJG5UkxKWqJJ-QWonf?usp=sharing`
+## Enfoque de esta version
 
-## Criterio de lectura
-
-Este documento esta dividido por archivo individual del Drive, no solo por familia de pagina. Cada bloque incluye metadata, tipo de asset y una redaccion funcional con el maximo nivel de certeza posible a partir de la evidencia disponible.
-
-Niveles de certeza usados:
-
-- `validado visualmente`: hubo apertura directa de muestra PNG/PDF o frame extraido de video.
-- `validado por correlacion`: la lectura se apoya en naming, orden del set y relacion con assets hermanos de la misma familia.
-- `tecnico`: archivo sin valor funcional de UX/contenido.
-
-## Sintesis general del folder
-
-El Drive contiene una biblioteca de referencias UX/UI para paginas de conversion, funnels, e-commerce y captacion de leads. No aparece material juridico ni institucional; el set funciona mas bien como repositorio de page breakdowns y wireframes reutilizables para estudiar patrones de conversion.
-
-Totales observados:
-
-- `50` archivos visibles.
-- `16` videos `.mp4`.
-- `33` PDFs.
-- `1` archivo tecnico `.DS_Store`.
-- Peso total aproximado del folder: `1043.6 MB`.
-- Fecha dominante de modificacion: `11 abr 2024`.
+En esta version se eliminan casi por completo las fichas tecnicas y se prioriza la lectura de contenido. Cada bloque toma el nombre del archivo y luego explica que muestra, que rol cumple y que informacion util deja para entender el sistema de paginas del Drive.
 
 ## .DS_Store
 
-- Tipo MIME: `application/octet-stream`
-- Tamano: `12 KB`
-- Ultima modificacion visible: `11 may 2025`
-- Google Drive fileId: `1VCUoSdZkvpIaLGIU-JTapeWVjrHz9DVV`
-- Nivel de certeza: `tecnico`
+Archivo tecnico sin valor de contenido. No aporta informacion funcional del Drive; solo indica que el material fue manipulado desde macOS antes de subirse.
 
-Archivo tecnico del sistema Finder/macOS. No aporta contenido funcional ni de negocio; solo evidencia que la carpeta fue manipulada desde un entorno Apple antes de compartirse.
+## 1. Homepage.mp4
 
-## Familia 1: Homepage
+Video de recorrido de la homepage principal. El frame validado muestra una estructura clasica de landing de marca: header simple, hero con propuesta de valor muy visible, CTA primario en verde, una banda de logos o referencias de confianza y luego un bloque de transformacion en pasos. Por la logica del set, este video sirve para ver el ritmo del scroll y como se encadenan los modulos que presentan beneficios, prueba social y cierre comercial.
 
-Landing principal de marca o producto. El frame validado muestra hero con propuesta de valor, CTA destacado, banda de logos de confianza y bloque de transformacion por pasos.
+## 2. Product page.mp4
 
-### 1. Homepage.mp4
+Walkthrough de una product page larga, pensada para venta directa. Complementa a los PDFs porque permite ver el orden de scroll de una pagina donde primero se vende la promesa, luego se desarrollan beneficios y features, despues aparece prueba social, comparativa y FAQ. Es un activo util para estudiar la narrativa comercial completa de un PDP expandido, no solo su maqueta estatica.
 
-- Tipo MIME: `video/mp4`
-- Tamano: `51.1 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1pyAeJhQEVOFN7N9ntOWHGfcvJ9U1YTBT`
-- Nivel de certeza: `validado visualmente`
+## 2.1 Product page - desktop.pdf
 
-Video walkthrough de la familia Homepage. Sirve para entender el orden real de scroll, la secuencia de modulos, la cadencia de los CTA y la narrativa visual completa de la pagina. En este caso hubo validacion visual directa sobre fotograma extraido, consistente con la estructura descrita para su familia.
+Mockup desktop muy completo de pagina de producto. Arranca con hero de producto, imagen grande, rating, badges, CTA y elementos de confianza. Despues despliega bloques de transformacion, beneficios, features alternados con visuales, una seccion de "what's included", prueba social en distintos formatos, tabla comparativa, FAQ, modulos de exploracion de catalogo y footer. Es una plantilla pensada para una venta larga, donde el usuario recibe todos los argumentos antes de decidir.
 
-## Familia 2: Product page
+## 2.2 Product page - mobile.pdf
 
-Pagina de producto o sales page larga con foco en conversion. La muestra desktop validada incluye hero de producto, beneficios, features, social proof, comparativa, FAQ y carruseles de productos.
+Version mobile del mismo flujo de producto. Lo importante no es solo que repite el contenido, sino como lo prioriza: todo se apila en un recorrido vertical muy lineal, con CTA recurrentes, imagenes reducidas y modulos mas compactos. Sirve para entender como traducen una sales page de producto extensa a una navegacion de celular sin perder jerarquia comercial.
 
-### 2. Product page.mp4
+## 3. Collections page.mp4
 
-- Tipo MIME: `video/mp4`
-- Tamano: `100 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1kGcHEYsG0xJF2FEqTu4QFxRMuWnAUSQ6`
-- Nivel de certeza: `validado por correlacion`
+Video de una pagina de coleccion o categoria de e-commerce. El frame obtenido muestra claramente una columna de filtros a la izquierda, un grid de productos al centro, controles de ordenamiento y tarjetas con acciones tipo "add to cart" y "view product". Esto confirma que no es una landing editorial sino una vista de browsing y comparacion de catalogo orientada a compra rapida.
 
-Video walkthrough de la familia Product page. Sirve para entender el orden real de scroll, la secuencia de modulos, la cadencia de los CTA y la narrativa visual completa de la pagina. La lectura funcional se apoya en el nombre del archivo y en la correlacion con sus PDFs hermanos desktop/mobile dentro de la misma familia.
+## 3.1 Collection page - desktop.pdf
 
-### 2.1 Product page - desktop.pdf
+Mockup desktop de coleccion. Aunque no se abrio completo en alta, por el video asociado y el naming se entiende como la version estatica del catalogo: filtros, listado de productos, grilla, elementos de precio u oferta y navegacion interna. Funciona como referencia para estructura de PLP, especialmente para estudiar densidad de informacion y distribucion del espacio entre navegacion y productos.
 
-- Tipo MIME: `application/pdf`
-- Tamano: `19.9 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1JZ1H8Yhf2loYmhzeY2Kt5TEkuc5D89fZ`
-- Nivel de certeza: `validado visualmente`
+## 3.2 Collection page - mobile.pdf
 
-Mockup estatico de version desktop para Product page. Permite revisar jerarquia visual, distribucion de modulos above-the-fold, longitud de pagina y ubicacion de bloques de conversion. Esta pieza fue validada visualmente en la muestra descargada.
+Version mobile de la coleccion. Aporta la lectura de como se repliegan filtros, como pasa la grilla a una estructura mas simple y como priorizan CTA o informacion clave del producto en pantalla chica. Es util para revisar la adaptacion del browsing de catalogo a movil.
 
-### 2.2 Product page - mobile.pdf
+## 4. Cart draw.mp4
 
-- Tipo MIME: `application/pdf`
-- Tamano: `3.7 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `16LZsTtbvj9XOUTG4x1xOTc7LuU7lIy7A`
-- Nivel de certeza: `validado por correlacion`
+Video centrado en el carrito lateral. El frame validado muestra una product page abierta con el drawer desplegado a la derecha, lo que deja claro que el foco es el comportamiento del mini-cart sobre la experiencia de compra, no una pagina independiente. Sirve para ver interaccion, densidad de contenido y convivencia entre la ficha de producto y el resumen de compra.
 
-Mockup estatico de version mobile para Product page. Su valor principal es mostrar la traduccion del flujo de la familia a pantalla angosta: orden de apilado, prioridad de CTA, simplificacion de modulos y comportamiento esperado del funnel en telefono.
+## 4.1 Cart Draw Empty - desktop.pdf
 
-## Familia 3: Collections page
+Estado vacio del cart drawer en desktop. Este archivo es importante porque documenta como resuelven la ausencia de productos: mensaje, jerarquia visual, espacio en blanco y CTA de recuperacion. No busca vender todavia; busca evitar abandono cuando el usuario abre un carrito sin items.
 
-Pagina de colecciones o categoria de e-commerce. Por el nombre del asset y el peso elevado de desktop/mobile, se interpreta como una vista larga con grillas, filtros y navegacion de catalogo.
+## 4.2 Cart Draw Empty - mobile.pdf
 
-### 3. Collections page.mp4
+Version mobile del estado vacio. Ayuda a ver como se compacta ese mensaje en pantalla chica y que tanto espacio ocupa el drawer o panel emergente cuando todavia no hay productos agregados.
 
-- Tipo MIME: `video/mp4`
-- Tamano: `43.9 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `11EB1HKuPei_UNegZrGlUOwL279Q-2egs`
-- Nivel de certeza: `validado por correlacion`
+## 4.3 Cart Draw Full - desktop.pdf
 
-Video walkthrough de la familia Collections page. Sirve para entender el orden real de scroll, la secuencia de modulos, la cadencia de los CTA y la narrativa visual completa de la pagina. La lectura funcional se apoya en el nombre del archivo y en la correlacion con sus PDFs hermanos desktop/mobile dentro de la misma familia.
+Estado completo del cart drawer en desktop. La informacion esperable aca es lista de productos, cantidades, subtotal, quizas upsells o mensajes de envio, y CTA de checkout. Es un archivo clave para estudiar cierre transaccional y friccion previa al pago.
 
-### 3.1 Collection page - desktop.pdf
+## 4.4 Cart Draw Full - mobile.pdf
 
-- Tipo MIME: `application/pdf`
-- Tamano: `72.7 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1UhinA8pj0vYg1BMAioUN5iJiX8K-2t-3`
-- Nivel de certeza: `validado por correlacion`
+Version mobile del cart drawer con productos cargados. Aporta la traduccion del checkout resumido a una pantalla mas estrecha, donde cada decision de jerarquia pesa mas porque el espacio es minimo.
 
-Mockup estatico de version desktop para Collections page. Permite revisar jerarquia visual, distribucion de modulos above-the-fold, longitud de pagina y ubicacion de bloques de conversion. No se abrio esta pieza puntual, pero su rol se deduce con alta confianza por el naming y por el patron repetido del set.
+## 5. Sales page.mp4
 
-### 3.2 Collection page - mobile.pdf
+Video de una sales page larga orientada a conversion directa. El frame de mitad del recorrido muestra una seccion de transformacion por pasos y luego beneficios, lo que indica un flujo mas argumental que navegacional. Esta pieza sirve para ver como ordenan la promesa, la explicacion del cambio, los beneficios y el empuje a CTA repetidos a lo largo del scroll.
 
-- Tipo MIME: `application/pdf`
-- Tamano: `24.3 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `140Q-x4q2EZqdVbNh5XO1DHMpM1XTLyqR`
-- Nivel de certeza: `validado por correlacion`
+## 5.1 Sales - desktop.pdf
 
-Mockup estatico de version mobile para Collections page. Su valor principal es mostrar la traduccion del flujo de la familia a pantalla angosta: orden de apilado, prioridad de CTA, simplificacion de modulos y comportamiento esperado del funnel en telefono.
+Mockup desktop de sales page. Aunque no se leyo completo en detalle visual, se entiende como una estructura hermana de la product page pero mas enfocada en la oferta y menos en la ficha. El valor del archivo esta en mostrar un recorrido largo de persuasion: promesa, mecanismo, beneficios, prueba social, objeciones y cierre.
 
-## Familia 4: Cart draw
+## 5.2 Sales - mobile.pdf
 
-Carrito lateral o mini-cart en estados vacio y con productos. El set esta organizado explicitamente para comparar ambos estados y su adaptacion entre desktop y mobile.
+Version mobile de la sales page. Permite estudiar como convierten una pagina persuasiva extensa en un flujo vertical mas comprimido, manteniendo repeticiones de CTA y modulos de confianza sin saturar la lectura en celular.
 
-### 4. Cart draw.mp4
+## 6. Listicle page.mp4
 
-- Tipo MIME: `video/mp4`
-- Tamano: `38.2 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1IaDHK0hX6NJMmSxo0JSrMwHYBwCJnjJ5`
-- Nivel de certeza: `validado por correlacion`
+Video de una pagina tipo listicle o ranking. El frame validado muestra una composicion con bloques consecutivos donde se alternan imagen y texto, con encabezados numerados o al menos secuenciales. Esto la ubica mas cerca de un contenido editorial comparativo que de una landing clasica: parece pensada para presentar opciones, picks o un ranking comentado.
 
-Video walkthrough de la familia Cart draw. Sirve para entender el orden real de scroll, la secuencia de modulos, la cadencia de los CTA y la narrativa visual completa de la pagina. La lectura funcional se apoya en el nombre del archivo y en la correlacion con sus PDFs hermanos desktop/mobile dentro de la misma familia.
+## 6.1 Listicle - desktop.pdf
 
-### 4.1 Cart Draw Empty - desktop.pdf
+Mockup desktop del listicle. Lo esperable aqui es una secuencia de items o entradas, cada una con visual, titular, resumen y posiblemente CTA. Es una referencia util para paginas hibridas entre contenido SEO o editorial y conversion.
 
-- Tipo MIME: `application/pdf`
-- Tamano: `1.6 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1d4jaTUEj9j--iaHCu8afEKNBbKB0aCAV`
-- Nivel de certeza: `validado por correlacion`
+## 6.2 Listicle - mobile.pdf
 
-Vista estatica del estado vacio del carrito lateral. Es util para relevar mensaje de ausencia de productos, CTA de recuperacion y uso del espacio cuando aun no hay items agregados.
+Version mobile del listicle. Sirve para ver como se apilan las entradas, como se evita una lectura demasiado pesada en telefono y como se mantiene escaneable una pieza larga basada en multiples bloques repetitivos.
 
-### 4.2 Cart Draw Empty - mobile.pdf
+## 7. Advertorial page.mp4
 
-- Tipo MIME: `application/pdf`
-- Tamano: `1.4 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1-9uxSw82DIYlOctIhinD3QrfFP3jBTDH`
-- Nivel de certeza: `validado por correlacion`
+Video de una advertorial larga, pensada como articulo persuasivo. Su funcion es mostrar el ritmo de lectura de un contenido que se presenta como editorial pero esta claramente orientado a convertir. Complementa a los PDFs con la experiencia completa de scroll.
 
-Vista estatica del estado vacio del carrito lateral. Es util para relevar mensaje de ausencia de productos, CTA de recuperacion y uso del espacio cuando aun no hay items agregados.
+## 7.1 Advertorial - desktop.pdf
 
-### 4.3 Cart Draw Full - desktop.pdf
+Mockup desktop de advertorial. Se ve una cabecera tipo articulo, autor o fecha, cuerpo de texto largo, imagenes insertadas, sidebar con testimonios o modulos laterales y CTA de registro incrustados dentro del texto. El tono no es de landing dura; parece una narrativa de contenido diseñada para construir credibilidad antes de pedir la accion.
 
-- Tipo MIME: `application/pdf`
-- Tamano: `1.7 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1jhvKpbCCMqMHGOoIgjTyXZlJaaX0texu`
-- Nivel de certeza: `validado por correlacion`
+## 7.2 Advertorial - mobile.pdf
 
-Vista estatica del estado completo del carrito lateral. Permite estudiar densidad de informacion, resumen de compra, controles de cantidad y CTA de checkout.
+Version mobile del advertorial. Permite ver como una pieza editorial extensa se simplifica a una sola columna, manteniendo bloques de lectura, imagenes y CTA intercalados sin romper la sensacion de articulo.
 
-### 4.4 Cart Draw Full - mobile.pdf
+## 8. Quiz page.mp4
 
-- Tipo MIME: `application/pdf`
-- Tamano: `1.5 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1-cHX2-qCkWcetrJoy44JVaIGIbC6NhxE`
-- Nivel de certeza: `validado por correlacion`
+Video de un quiz guiado. El frame validado confirma un flujo centrado en una sola pregunta por pantalla, con barra de progreso, indicador temporal de esfuerzo bajo y opciones grandes tipo cards. Este archivo es util para ver la dinamica de avance y la sensacion de acompanamiento paso a paso.
 
-Vista estatica del estado completo del carrito lateral. Permite estudiar densidad de informacion, resumen de compra, controles de cantidad y CTA de checkout.
+## 8.1 Quiz - desktop.pdf
 
-## Familia 5: Sales page
+Mockup desktop del quiz. Muestra un encabezado con propuesta de valor, barra de progreso horizontal, pregunta central, opciones visualmente muy destacadas y CTA fuerte. Tambien incorpora algo de prueba social debajo, lo que indica que incluso un quiz esta pensado aca como una pieza de conversion, no solo de segmentacion.
 
-Pagina de ventas orientada a oferta directa. Por patron de la biblioteca, deberia presentar hero fuerte, propuesta de valor, beneficios, repeticion de CTA y cierre FAQ.
+## 8.2 Quiz - mobile.pdf
 
-### 5. Sales page.mp4
+Version mobile del quiz. Sirve para ver como el patron de una pregunta por paso se traduce a telefono: controles mas grandes, menos ruido alrededor y foco casi total en avanzar al siguiente paso.
 
-- Tipo MIME: `video/mp4`
-- Tamano: `36.7 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1j0C4Bc-1ZnlqzoP441IMcPIrr0Lb17M-`
-- Nivel de certeza: `validado por correlacion`
+## 9. Lead generation page.mp4
 
-Video walkthrough de la familia Sales page. Sirve para entender el orden real de scroll, la secuencia de modulos, la cadencia de los CTA y la narrativa visual completa de la pagina. La lectura funcional se apoya en el nombre del archivo y en la correlacion con sus PDFs hermanos desktop/mobile dentro de la misma familia.
+Video de una landing de lead generation. Su rol dentro del set es mostrar como presentan la propuesta de valor, exponen el formulario y sostienen el interes con transformacion, beneficios, prueba social y FAQ hasta el CTA final.
 
-### 5.1 Sales - desktop.pdf
+## 9.1 Leadgen - desktop.pdf
 
-- Tipo MIME: `application/pdf`
-- Tamano: `18.5 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1YLEWcDPDbcgOJYd53gsNi82Yq150KqMs`
-- Nivel de certeza: `validado por correlacion`
+Mockup desktop de captacion de leads. Arranca con hero de promesa a la izquierda y formulario a la derecha, luego una banda de confianza, un bloque de transformacion en tres pasos, secciones de "what's included", social proof, FAQ y un cierre con CTA emocional. Es una estructura muy clara de landing de performance orientada a completar un formulario.
 
-Mockup estatico de version desktop para Sales page. Permite revisar jerarquia visual, distribucion de modulos above-the-fold, longitud de pagina y ubicacion de bloques de conversion. No se abrio esta pieza puntual, pero su rol se deduce con alta confianza por el naming y por el patron repetido del set.
+## 9.2 Leadgen - mobile.pdf
 
-### 5.2 Sales - mobile.pdf
+Version mobile de la leadgen. Ayuda a entender como reordenan formulario, prueba social y beneficios en un flujo vertical mas corto y de lectura rapida, que preserve la intencion de registro.
 
-- Tipo MIME: `application/pdf`
-- Tamano: `3.5 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1VC2JoLpDGIlmmqz3eawuDk5lXF-YdWn4`
-- Nivel de certeza: `validado por correlacion`
+## 10. Multistep lead generation page.mp4
 
-Mockup estatico de version mobile para Sales page. Su valor principal es mostrar la traduccion del flujo de la familia a pantalla angosta: orden de apilado, prioridad de CTA, simplificacion de modulos y comportamiento esperado del funnel en telefono.
+Video de una leadgen en varios pasos. A diferencia de la landing de captura directa, esta pieza probablemente distribuye la friccion del formulario a lo largo del recorrido: primero microdecisiones o filtros, despues datos del usuario. El valor del archivo esta en estudiar compromiso progresivo.
 
-## Familia 6: Listicle page
+## 10.1 Multistep lead generation - desktop.pdf
 
-Pagina editorial tipo lista o ranking. Por naming y composicion esperable, funciona como contenido intermedio entre SEO/editorial y conversion comercial.
+Mockup desktop de captacion escalonada. Aunque no quedo una validacion visual fina, por naming y contexto encaja en un patron donde el formulario se fragmenta para elevar completion rate y cualificar mejor al lead antes del submit final.
 
-### 6. Listicle page.mp4
+## 10.2 Multistep lead generation - mobile.pdf
 
-- Tipo MIME: `video/mp4`
-- Tamano: `48.6 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1pxkuMoHHe_KmfMHmJeUa1D20g1OUh87a`
-- Nivel de certeza: `validado por correlacion`
+Version mobile del flujo multistep. Este tipo de archivo suele mostrar como se simplifica la captura progresiva en telefono, apoyandose en pantallas limpias, pocos campos por paso y navegacion muy guiada.
 
-Video walkthrough de la familia Listicle page. Sirve para entender el orden real de scroll, la secuencia de modulos, la cadencia de los CTA y la narrativa visual completa de la pagina. La lectura funcional se apoya en el nombre del archivo y en la correlacion con sus PDFs hermanos desktop/mobile dentro de la misma familia.
+## 11. Opt-In pages.mp4
 
-### 6.1 Listicle - desktop.pdf
+Video que reune variantes de opt-in. Su proposito es mostrar paginas y overlays muy concentrados en captura de email, probablemente con menos narrativa que una leadgen tradicional y con una propuesta mas puntual como descuento, acceso o lead magnet.
 
-- Tipo MIME: `application/pdf`
-- Tamano: `4.1 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1HXDpwiFUpYpU0OKceeUcD0rZgx1wp88C`
-- Nivel de certeza: `validado por correlacion`
+## 11.1 Opt in - desktop.pdf
 
-Mockup estatico de version desktop para Listicle page. Permite revisar jerarquia visual, distribucion de modulos above-the-fold, longitud de pagina y ubicacion de bloques de conversion. No se abrio esta pieza puntual, pero su rol se deduce con alta confianza por el naming y por el patron repetido del set.
+Mockup de pagina completa de opt-in en desktop. Lo central aca es la simplicidad: una promesa concreta, poco contenido accesorio y un CTA dominante orientado a conseguir el email sin dispersion.
 
-### 6.2 Listicle - mobile.pdf
+## 11.2 Opt in - mobile.pdf
 
-- Tipo MIME: `application/pdf`
-- Tamano: `5 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1nOSwVqVqHZYUZOL_MhX9MZTnRgsssySY`
-- Nivel de certeza: `validado por correlacion`
+Version mobile del opt-in. Aporta el mismo patron de foco extremo en la accion, pero adaptado a una pantalla donde cada elemento debe justificar su presencia.
 
-Mockup estatico de version mobile para Listicle page. Su valor principal es mostrar la traduccion del flujo de la familia a pantalla angosta: orden de apilado, prioridad de CTA, simplificacion de modulos y comportamiento esperado del funnel en telefono.
+## 11.3 Opt in modal - desktop.pdf
 
-## Familia 7: Advertorial page
+Mockup de modal de captura. La imagen validada muestra fondo atenuado y una caja central con titular, campo de email y CTA grande. Esta pieza es importante porque no describe una pagina, sino una interrupcion deliberada dentro de otra experiencia para forzar la captura antes del abandono.
 
-Articulo persuasivo largo con tono editorial. La muestra validada muestra layout de articulo, modulos de texto extensos, imagenes, testimonios laterales y CTAs de registro incrustados.
+## 11.4 Opt in modal - mobile.pdf
 
-### 7. Advertorial page.mp4
+Version mobile del modal de opt-in. Sirve para estudiar como mantienen la agresividad comercial del overlay sin romper del todo la usabilidad en un dispositivo pequeno.
 
-- Tipo MIME: `video/mp4`
-- Tamano: `61.1 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1wJHN4ITTh1UsftyNqaaWCmZyeNzXQjnO`
-- Nivel de certeza: `validado por correlacion`
+## 12. Top X page.mp4
 
-Video walkthrough de la familia Advertorial page. Sirve para entender el orden real de scroll, la secuencia de modulos, la cadencia de los CTA y la narrativa visual completa de la pagina. La lectura funcional se apoya en el nombre del archivo y en la correlacion con sus PDFs hermanos desktop/mobile dentro de la misma familia.
+Video de una pagina tipo ranking "Top X". El frame validado deja ver badges o puntajes en la parte superior, una promesa fuerte, bloques de texto comparativo, FAQ y un CTA final. La sensacion general es de una pieza editorial-comercial donde se jerarquizan opciones o picks con apariencia de analisis.
 
-### 7.1 Advertorial - desktop.pdf
+## 12.1 Top X page - desktop.pdf
 
-- Tipo MIME: `application/pdf`
-- Tamano: `368 KB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1aYE-sZnNNn3rOD7IH897lzvUBNgRmmUV`
-- Nivel de certeza: `validado visualmente`
+Mockup desktop del ranking. Aunque no se abrio completo, el video asociado permite inferir que el PDF desarrolla una comparativa o curaduria donde la autoridad se construye con scores, argumentos breves y llamadas a la accion sobre los mejores puestos.
 
-Mockup estatico de version desktop para Advertorial page. Permite revisar jerarquia visual, distribucion de modulos above-the-fold, longitud de pagina y ubicacion de bloques de conversion. Esta pieza fue validada visualmente en la muestra descargada.
+## 12.2 Top X page - mobile.pdf
 
-### 7.2 Advertorial - mobile.pdf
+Version mobile del Top X. Aporta la lectura de como se empaqueta una comparativa con puntajes y argumentos en una secuencia mas escaneable para celular.
 
-- Tipo MIME: `application/pdf`
-- Tamano: `186 KB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1a0gvrFQtwoh8yiIUaWL4njpmhwdLljRG`
-- Nivel de certeza: `validado por correlacion`
+## 13. VSL page.mp4
 
-Mockup estatico de version mobile para Advertorial page. Su valor principal es mostrar la traduccion del flujo de la familia a pantalla angosta: orden de apilado, prioridad de CTA, simplificacion de modulos y comportamiento esperado del funnel en telefono.
+Video de una VSL page. Esta pieza muestra como se recorre una landing donde el video es el corazon de la venta y el resto de los modulos estan al servicio de sostener y cerrar la promesa audiovisual.
 
-## Familia 8: Quiz page
+## 13.1 VSL - desktop.pdf
 
-Formulario guiado de una pregunta por paso. La muestra desktop y el frame de video validan barra de progreso, pregunta central, opciones en cards y CTA de avance.
+Mockup desktop de Video Sales Letter. Se ve un titular arriba, el player como elemento principal, CTA cercano, bloque de transformacion, grilla de beneficios, features, una seccion "about us", mucho social proof, FAQ y un cierre testimonial con CTA. Es una pagina pensada para que el video abra la venta y el resto remate objeciones.
 
-### 8. Quiz page.mp4
+## 13.2 VSL - mobile.pdf
 
-- Tipo MIME: `video/mp4`
-- Tamano: `41 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1gAa2PNB1n7gdgjpjPcB3Bl_mmI7rMtzs`
-- Nivel de certeza: `validado visualmente`
+Version mobile de la VSL. Lo valioso es ver como se preserva la primacia del video y se reacomodan las secciones de soporte debajo en una sola columna sin perder continuidad persuasiva.
 
-Video walkthrough de la familia Quiz page. Sirve para entender el orden real de scroll, la secuencia de modulos, la cadencia de los CTA y la narrativa visual completa de la pagina. En este caso hubo validacion visual directa sobre fotograma extraido, consistente con la estructura descrita para su familia.
+## 14. Webinar.mp4
 
-### 8.1 Quiz - desktop.pdf
+Video de landing de webinar. El frame validado muestra una composicion muy clara: a la izquierda promesa y elementos de confianza; a la derecha un formulario visible con campos concretos. Esto confirma que la pieza esta orientada a registro inmediato, con soporte argumental minimo alrededor.
 
-- Tipo MIME: `application/pdf`
-- Tamano: `1.1 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1dLOJN5nQNU15RlBr5G3grfgUJTFCgQYq`
-- Nivel de certeza: `validado visualmente`
+## 14.1 Webinar - desktop.pdf
 
-Mockup estatico de version desktop para Quiz page. Permite revisar jerarquia visual, distribucion de modulos above-the-fold, longitud de pagina y ubicacion de bloques de conversion. Esta pieza fue validada visualmente en la muestra descargada.
+Mockup desktop del webinar. La estructura esperable es hero con beneficio del evento, formulario de inscripcion, posibles bullets de lo que se aprendera, autoridad del host o speakers y senales de confianza. Es una pieza muy de conversion directa, mas corta y enfocada que una sales page larga.
 
-### 8.2 Quiz - mobile.pdf
+## 14.2 Webinar - mobile.pdf
 
-- Tipo MIME: `application/pdf`
-- Tamano: `1.3 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1pR3LTupyM-uySQ_KDxyBMge4vHlodhEC`
-- Nivel de certeza: `validado por correlacion`
+Version mobile del webinar. Sirve para revisar como se prioriza el formulario de registro y que contenido queda arriba o abajo cuando el espacio obliga a simplificar.
 
-Mockup estatico de version mobile para Quiz page. Su valor principal es mostrar la traduccion del flujo de la familia a pantalla angosta: orden de apilado, prioridad de CTA, simplificacion de modulos y comportamiento esperado del funnel en telefono.
+## 15. SaaS.mp4
 
-## Familia 9: Lead generation page
+Video de landing SaaS. El frame capturado muestra parte de un hero con visual de producto o dispositivo, luego una seccion de transformacion por pasos y beneficios. Esto la posiciona como una pagina de software que vende resultado y claridad de proceso mas que catalogo de features aisladas.
 
-Landing de captura de leads. La muestra validada incluye hero con formulario visible, pasos de transformacion, beneficios, social proof, FAQ y CTA de cierre.
+## 15.1 SaaS - desktop.pdf
 
-### 9. Lead generation page.mp4
+Mockup desktop del SaaS. Aunque no se abrio entero, por el video asociado y por el set general se entiende como una landing con propuesta de valor, demo o visual de producto, beneficios, features, probablemente bloques de confianza y CTA de signup o demo.
 
-- Tipo MIME: `video/mp4`
-- Tamano: `51.6 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1JsnaDRPtCf0KNHiQ_iunEl92a0O9P46J`
-- Nivel de certeza: `validado por correlacion`
+## 15.2 SaaS - mobile.pdf
 
-Video walkthrough de la familia Lead generation page. Sirve para entender el orden real de scroll, la secuencia de modulos, la cadencia de los CTA y la narrativa visual completa de la pagina. La lectura funcional se apoya en el nombre del archivo y en la correlacion con sus PDFs hermanos desktop/mobile dentro de la misma familia.
+Version mobile del SaaS. Aporta como se ordenan hero, visual de producto, beneficios y CTA en un flujo mas compacto para un contexto donde el usuario probablemente decide si probar o no con muy pocos segundos de atencion.
 
-### 9.1 Leadgen - desktop.pdf
+## 16. Service.mp4
 
-- Tipo MIME: `application/pdf`
-- Tamano: `1.1 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1P5LqarB5y_seNdMe9MnZCoOlMfODWYpb`
-- Nivel de certeza: `validado visualmente`
+Video de landing de servicio. El frame validado confirma una narrativa bastante ordenada: transformacion en pasos, beneficios con iconografia y bloques explicativos. Es menos producto fisico y mas servicio explicado por proceso y resultado.
 
-Mockup estatico de version desktop para Lead generation page. Permite revisar jerarquia visual, distribucion de modulos above-the-fold, longitud de pagina y ubicacion de bloques de conversion. Esta pieza fue validada visualmente en la muestra descargada.
+## 16.1 Service - desktop.pdf
 
-### 9.2 Leadgen - mobile.pdf
-
-- Tipo MIME: `application/pdf`
-- Tamano: `369 KB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1qqFqeseDtBvgf-LwgO14p6eQ72yTf2WL`
-- Nivel de certeza: `validado por correlacion`
-
-Mockup estatico de version mobile para Lead generation page. Su valor principal es mostrar la traduccion del flujo de la familia a pantalla angosta: orden de apilado, prioridad de CTA, simplificacion de modulos y comportamiento esperado del funnel en telefono.
-
-## Familia 10: Multistep lead generation page
-
-Variante de captacion en varios pasos. Por el set asociado, prioriza cualificacion progresiva antes del envio final del lead.
-
-### 10. Multistep lead generation page.mp4
-
-- Tipo MIME: `video/mp4`
-- Tamano: `42.9 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1mgneSMxHrzddV0kMTrJlKlaAh3AoLZyq`
-- Nivel de certeza: `validado por correlacion`
-
-Video walkthrough de la familia Multistep lead generation page. Sirve para entender el orden real de scroll, la secuencia de modulos, la cadencia de los CTA y la narrativa visual completa de la pagina. La lectura funcional se apoya en el nombre del archivo y en la correlacion con sus PDFs hermanos desktop/mobile dentro de la misma familia.
-
-### 10.1 Multistep lead generation - desktop.pdf
-
-- Tipo MIME: `application/pdf`
-- Tamano: `670 KB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1QcAGRaVlE2ep7o1A85qTa9rJuhPkT-_6`
-- Nivel de certeza: `validado por correlacion`
-
-Mockup estatico de version desktop para Multistep lead generation page. Permite revisar jerarquia visual, distribucion de modulos above-the-fold, longitud de pagina y ubicacion de bloques de conversion. No se abrio esta pieza puntual, pero su rol se deduce con alta confianza por el naming y por el patron repetido del set.
-
-### 10.2 Multistep lead generation - mobile.pdf
-
-- Tipo MIME: `application/pdf`
-- Tamano: `466 KB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1j70glO_llNDSAM1KLDQO0VZKAJFlOZmL`
-- Nivel de certeza: `validado por correlacion`
-
-Mockup estatico de version mobile para Multistep lead generation page. Su valor principal es mostrar la traduccion del flujo de la familia a pantalla angosta: orden de apilado, prioridad de CTA, simplificacion de modulos y comportamiento esperado del funnel en telefono.
-
-## Familia 11: Opt-In pages
-
-Conjunto de pantallas para captura de email y modal de interrupcion. La muestra del modal validada evidencia overlay centrado con campo de email y CTA dominante.
-
-### 11. Opt-In pages.mp4
-
-- Tipo MIME: `video/mp4`
-- Tamano: `42.2 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1x_6zrNS-gJyi3NFV8TfjfMJJRDg0IyQA`
-- Nivel de certeza: `validado por correlacion`
-
-Video walkthrough de la familia Opt-In pages. Sirve para entender el orden real de scroll, la secuencia de modulos, la cadencia de los CTA y la narrativa visual completa de la pagina. La lectura funcional se apoya en el nombre del archivo y en la correlacion con sus PDFs hermanos desktop/mobile dentro de la misma familia.
-
-### 11.1 Opt in - desktop.pdf
-
-- Tipo MIME: `application/pdf`
-- Tamano: `1.6 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1fpnwO3E5gp_sTdTSZF3jMzN8QYXY02S8`
-- Nivel de certeza: `validado por correlacion`
-
-Mockup de pagina de opt-in completa, orientada a capturar email con una propuesta unica y CTA dominante, sin la complejidad de una landing larga.
-
-### 11.2 Opt in - mobile.pdf
-
-- Tipo MIME: `application/pdf`
-- Tamano: `2.6 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1JYgnBNSV6MeVJMloSXh2wIaVWAowbqK8`
-- Nivel de certeza: `validado por correlacion`
-
-Mockup de pagina de opt-in completa, orientada a capturar email con una propuesta unica y CTA dominante, sin la complejidad de una landing larga.
-
-### 11.3 Opt in modal - desktop.pdf
-
-- Tipo MIME: `application/pdf`
-- Tamano: `1.7 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1qkjjlBfBxJz9-j0oLA9HxpDugkdqgZ85`
-- Nivel de certeza: `validado visualmente`
-
-Mockup del modal de captura de email superpuesto sobre una pagina base. Expone con claridad el patron de interrupcion, el foco visual absoluto en email + CTA y el uso de fondo atenuado para frenar la navegacion.
-
-### 11.4 Opt in modal - mobile.pdf
-
-- Tipo MIME: `application/pdf`
-- Tamano: `1.5 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1-0Wp_6gbzDg-kYUXsKpOQ-l_mendTahC`
-- Nivel de certeza: `validado por correlacion`
-
-Mockup del modal de captura de email superpuesto sobre una pagina base. Expone con claridad el patron de interrupcion, el foco visual absoluto en email + CTA y el uso de fondo atenuado para frenar la navegacion.
-
-## Familia 12: Top X page
-
-Pagina de ranking o curacion tipo Top X. Por naming y estructura del set, apunta a comparativas, seleccion editorial y empuje a clics transaccionales.
-
-### 12. Top X page.mp4
-
-- Tipo MIME: `video/mp4`
-- Tamano: `57.5 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1koNikTHP_Zl7xQ6AbMPU-ec8iu3755wG`
-- Nivel de certeza: `validado por correlacion`
-
-Video walkthrough de la familia Top X page. Sirve para entender el orden real de scroll, la secuencia de modulos, la cadencia de los CTA y la narrativa visual completa de la pagina. La lectura funcional se apoya en el nombre del archivo y en la correlacion con sus PDFs hermanos desktop/mobile dentro de la misma familia.
-
-### 12.1 Top X page - desktop.pdf
-
-- Tipo MIME: `application/pdf`
-- Tamano: `23.6 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1jENS04ozcZx8s8zLb8XT_NJV_cavt6h_`
-- Nivel de certeza: `validado por correlacion`
-
-Mockup estatico de version desktop para Top X page. Permite revisar jerarquia visual, distribucion de modulos above-the-fold, longitud de pagina y ubicacion de bloques de conversion. No se abrio esta pieza puntual, pero su rol se deduce con alta confianza por el naming y por el patron repetido del set.
-
-### 12.2 Top X page - mobile.pdf
-
-- Tipo MIME: `application/pdf`
-- Tamano: `1.7 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `16P4jC8uy0wy38T8-HwK2wwP45aFelEKO`
-- Nivel de certeza: `validado por correlacion`
-
-Mockup estatico de version mobile para Top X page. Su valor principal es mostrar la traduccion del flujo de la familia a pantalla angosta: orden de apilado, prioridad de CTA, simplificacion de modulos y comportamiento esperado del funnel en telefono.
-
-## Familia 13: VSL page
-
-Video Sales Letter con video protagonista y construccion argumental por secciones. La muestra validada exhibe player arriba, CTA cercano, beneficios, features, bloque about us, social proof y FAQ.
-
-### 13. VSL page.mp4
-
-- Tipo MIME: `video/mp4`
-- Tamano: `45.5 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `11cWRPlWkcfLPQTLfc6L2V5mBfv9k_Ncw`
-- Nivel de certeza: `validado por correlacion`
-
-Video walkthrough de la familia VSL page. Sirve para entender el orden real de scroll, la secuencia de modulos, la cadencia de los CTA y la narrativa visual completa de la pagina. La lectura funcional se apoya en el nombre del archivo y en la correlacion con sus PDFs hermanos desktop/mobile dentro de la misma familia.
-
-### 13.1 VSL - desktop.pdf
-
-- Tipo MIME: `application/pdf`
-- Tamano: `3.6 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1_ObLFXeGXdfJbv0a9UKfGNWJwwhLbP-b`
-- Nivel de certeza: `validado visualmente`
-
-Mockup estatico de version desktop para VSL page. Permite revisar jerarquia visual, distribucion de modulos above-the-fold, longitud de pagina y ubicacion de bloques de conversion. Esta pieza fue validada visualmente en la muestra descargada.
-
-### 13.2 VSL - mobile.pdf
-
-- Tipo MIME: `application/pdf`
-- Tamano: `1.2 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1PFRBYh_EVBKj-1I5xc5iKl8oxUuUz-ut`
-- Nivel de certeza: `validado por correlacion`
-
-Mockup estatico de version mobile para VSL page. Su valor principal es mostrar la traduccion del flujo de la familia a pantalla angosta: orden de apilado, prioridad de CTA, simplificacion de modulos y comportamiento esperado del funnel en telefono.
-
-## Familia 14: Webinar
-
-Landing de registro a webinar. Por patron del material, deberia combinar promesa del evento, presentacion de speakers o beneficios, prueba social y formulario de inscripcion.
-
-### 14. Webinar.mp4
-
-- Tipo MIME: `video/mp4`
-- Tamano: `55.1 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1d1PGXamaXlt5b1kuUIyPxZmjCghvF4T9`
-- Nivel de certeza: `validado por correlacion`
-
-Video walkthrough de la familia Webinar. Sirve para entender el orden real de scroll, la secuencia de modulos, la cadencia de los CTA y la narrativa visual completa de la pagina. La lectura funcional se apoya en el nombre del archivo y en la correlacion con sus PDFs hermanos desktop/mobile dentro de la misma familia.
-
-### 14.1 Webinar - desktop.pdf
-
-- Tipo MIME: `application/pdf`
-- Tamano: `6.7 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1AbqobpGkoQZrwYoa92hs5BVzdwgr-Zgo`
-- Nivel de certeza: `validado por correlacion`
-
-Mockup estatico de version desktop para Webinar. Permite revisar jerarquia visual, distribucion de modulos above-the-fold, longitud de pagina y ubicacion de bloques de conversion. No se abrio esta pieza puntual, pero su rol se deduce con alta confianza por el naming y por el patron repetido del set.
-
-### 14.2 Webinar - mobile.pdf
-
-- Tipo MIME: `application/pdf`
-- Tamano: `1.7 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1V9YOXTbqy9qBxDEcPVun20WIlkq2s2iN`
-- Nivel de certeza: `validado por correlacion`
-
-Mockup estatico de version mobile para Webinar. Su valor principal es mostrar la traduccion del flujo de la familia a pantalla angosta: orden de apilado, prioridad de CTA, simplificacion de modulos y comportamiento esperado del funnel en telefono.
-
-## Familia 15: SaaS
-
-Landing para producto software. Por naming y correlacion con el set, probablemente organiza propuesta de valor, features, beneficios, pricing o demo/signup.
-
-### 15. SaaS.mp4
-
-- Tipo MIME: `video/mp4`
-- Tamano: `50 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1-c_GKDgcgCjhjC1W_TX4BAbdidIGhLg_`
-- Nivel de certeza: `validado por correlacion`
-
-Video walkthrough de la familia SaaS. Sirve para entender el orden real de scroll, la secuencia de modulos, la cadencia de los CTA y la narrativa visual completa de la pagina. La lectura funcional se apoya en el nombre del archivo y en la correlacion con sus PDFs hermanos desktop/mobile dentro de la misma familia.
-
-### 15.1 SaaS - desktop.pdf
-
-- Tipo MIME: `application/pdf`
-- Tamano: `9.1 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1YdVEtinRuQkH99fO926ASDOe1IFNwRRY`
-- Nivel de certeza: `validado por correlacion`
-
-Mockup estatico de version desktop para SaaS. Permite revisar jerarquia visual, distribucion de modulos above-the-fold, longitud de pagina y ubicacion de bloques de conversion. No se abrio esta pieza puntual, pero su rol se deduce con alta confianza por el naming y por el patron repetido del set.
-
-### 15.2 SaaS - mobile.pdf
-
-- Tipo MIME: `application/pdf`
-- Tamano: `2.6 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1qwh42HDNNmUFBm23S8zBltVg8Y2o8CnB`
-- Nivel de certeza: `validado por correlacion`
-
-Mockup estatico de version mobile para SaaS. Su valor principal es mostrar la traduccion del flujo de la familia a pantalla angosta: orden de apilado, prioridad de CTA, simplificacion de modulos y comportamiento esperado del funnel en telefono.
-
-## Familia 16: Service
-
-Landing de servicio. La muestra validada muestra hero con CTA, transformacion en tres pasos, iconografia de beneficios, multiples bloques de features alternados con imagen y cierre con social proof y FAQ.
-
-### 16. Service.mp4
-
-- Tipo MIME: `video/mp4`
-- Tamano: `49.2 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1LHglzCw2xK1Tc87jBLBT-ARKPbRfDQgr`
-- Nivel de certeza: `validado por correlacion`
-
-Video walkthrough de la familia Service. Sirve para entender el orden real de scroll, la secuencia de modulos, la cadencia de los CTA y la narrativa visual completa de la pagina. La lectura funcional se apoya en el nombre del archivo y en la correlacion con sus PDFs hermanos desktop/mobile dentro de la misma familia.
-
-### 16.1 Service - desktop.pdf
-
-- Tipo MIME: `application/pdf`
-- Tamano: `8 MB`
-- Ultima modificacion visible: `11 abr 2024`
-- Google Drive fileId: `1RsNDrNSt7bMT3Iw-n7P6xv8YoIRmDlLt`
-- Nivel de certeza: `validado visualmente`
-
-Mockup estatico de version desktop para Service. Permite revisar jerarquia visual, distribucion de modulos above-the-fold, longitud de pagina y ubicacion de bloques de conversion. Esta pieza fue validada visualmente en la muestra descargada.
-
-## Cierre analitico
-
-Leido archivo por archivo, el Drive confirma una biblioteca sistematica de patrones de pagina para performance marketing. La organizacion por video mas PDFs desktop/mobile sugiere un uso mixto: estudiar el flujo en movimiento y luego revisar la composicion de cada breakpoint en estatico. La profundidad real del material esta en la repeticion del metodo: cada familia enseña una intencion distinta del funnel y como esa intencion se traduce en layout, CTA y orden de modulos.
+Mockup desktop de servicio. Arranca con hero y CTA, sigue con transformacion en tres pasos, una grilla de beneficios con iconos, luego una serie larga de bloques alternados imagen y texto para explicar features o aspectos del servicio, mas social proof, FAQ y cierre con CTA emocional. Es una de las piezas mas claras del set para vender consultoria, servicio profesional o solucion intangible.
