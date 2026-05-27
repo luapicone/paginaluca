@@ -1,40 +1,44 @@
-# Relevamiento explicativo del Drive `7. Page Breakdowns and Wireframes`
+# Manual final de implementacion del Drive `7. Page Breakdowns and Wireframes`
 
-Fecha de relevamiento: `2026-05-27`  
+Fecha de consolidacion del manual: `2026-05-27`  
 Drive analizado: `https://drive.google.com/drive/folders/12p9jdfB1MrOiV8sJG5UkxKWqJJ-QWonf?usp=sharing`
 
-## Como leer este documento
+## Como usar este manual
 
-La idea de esta version es que cada archivo quede explicado en lenguaje claro, pero tambien en lenguaje util para tomar decisiones. No alcanza con listar assets: cada bloque busca dejar en evidencia que tipo de pieza es, que rol cumple dentro del set y hasta donde se puede hablar con certeza sin inventar informacion.
+Esta version ya no esta pensada solo como relevamiento. Esta consolidada como manual final de implementacion, es decir, como un documento que permite pasar del material del Drive a una ejecucion real con el menor nivel posible de ambiguedad. El objetivo no es solo describir archivos, sino convertirlos en criterios de trabajo aplicables a diseno, maquetado, armado de contenido, QA visual y validacion funcional.
 
-Por eso cada bloque responde varias preguntas fijas:
+Por eso cada bloque responde preguntas orientadas a implementacion:
 
-- `Que es este archivo`: identifica la naturaleza real del asset. Aclara si se trata de un video narrado, un PDF estatico, una variante mobile/desktop o un archivo tecnico sin valor funcional. Este apartado sirve para ubicar rapidamente que clase de evidencia tenemos delante y evitar mezclar una explicacion conceptual con una maqueta o con un residuo de sistema.
-- `Para que sirve`: describe la utilidad concreta del archivo dentro del conjunto analizado. No habla de usos teoricos amplios, sino del aporte especifico que hace esa pieza dentro del funnel, del wireframe o del proceso de diseno/implementacion.
-- `Como se aplica este archivo y que resultados da`: traduce el asset a uso practico. Explica como podria usarse como insumo de diseno, maquetado, validacion, comparacion o documentacion, y que clase de resultado deja cuando se lo aplica bien.
-- `Que se puede verificar de verdad dentro del archivo`: separa evidencia real de interpretacion. Aca se deja por escrito que datos salen efectivamente del asset, ya sea por nombre, metadata, texto extraido, narracion transcripta o lectura visual limitada.
-- `Que extracto util deja el archivo`: conserva un fragmento verificable que funciona como muestra del material original y ayuda a justificar la descripcion hecha en el bloque.
+- `Que es este archivo`: identifica con precision la naturaleza del asset para saber si debe leerse como explicacion, como wireframe visual o como archivo tecnico descartable.
+- `Para que sirve`: deja claro el rol concreto de la pieza dentro de una pagina, un funnel o una familia de pantallas.
+- `Como se aplica este archivo y que resultados da`: traduce el asset a decisiones de trabajo. Ayuda a entender como usarlo durante diseno, maquetado, armado de modulos, priorizacion de contenido o control final.
+- `Como implementar este archivo`: baja el material a instrucciones operativas. Indica como conviene convertir el asset en una pagina real, que decisiones conviene respetar y que objetivo practico deberia cumplirse al implementarlo.
+- `Checklist final de implementacion`: deja una lista de control breve para verificar si la pieza ya esta lista para pasar como implementacion consistente respecto del material fuente.
+- `Que se puede verificar de verdad dentro del archivo`: separa lo que esta efectivamente sustentado por el asset de cualquier interpretacion no confirmada.
+- `Que extracto util deja el archivo`: conserva una muestra verificable del material original para justificar decisiones de implementacion o lectura funcional.
 
-Criterio estricto: no se agrega informacion externa al asset. Cuando algo sale solo del nombre del archivo, se dice. Cuando sale del audio del video, se apoya en la transcripcion. Cuando un PDF no tiene capa de texto o casi no entrega texto util, se aclara de forma explicita.
+Criterio estricto: el manual sigue sin inventar informacion externa al asset. Cuando algo sale solo del nombre del archivo, se dice. Cuando sale del audio del video, se apoya en la transcripcion. Cuando un PDF no tiene capa de texto o casi no entrega texto util, se aclara de forma explicita.
 
-## Resumen general
+## Resumen ejecutivo del manual
 
-- El Drive es una biblioteca de referencia para funnels, e-commerce, lead generation y landings de conversion.
-- Los videos contienen narracion en ingles que explica que es cada tipo de pagina, como deberia ordenarse y que decisiones de jerarquia o conversion prioriza.
-- Los PDFs son la capa estatica de esos mismos wireframes: en muchos casos tienen poco texto extraible porque son maquetas visuales, pero aun asi sirven para validar estructura, secuencia y densidad de bloques.
-- La combinacion video + PDF permite leer cada familia en dos niveles: logica explicada y composicion visual.
-- No se detecta material juridico, institucional ni documental de otro tipo.
+- El Drive funciona como biblioteca base para implementar funnels, e-commerce, lead generation, landings de conversion y variantes de paginas comerciales.
+- Los videos deben leerse como fuente principal de criterio: explican la logica de orden, el objetivo de conversion de cada tramo y la intencion detras de cada bloque.
+- Los PDFs deben leerse como fuente principal de estructura visual: permiten bajar esa logica a layout, espaciado, jerarquia y composicion en desktop o mobile.
+- La implementacion correcta sale de combinar ambas capas: primero criterio funcional, despues traduccion visual y finalmente validacion contra el asset.
+- No se detecta material juridico, institucional ni documental de otro tipo; el contenido del Drive responde a patrones de pagina y funnel.
 
-## Como aplicar estos archivos y que resultados producen
+## Criterio general de implementacion
 
-Estos archivos sirven como insumo de trabajo, no solo como referencia pasiva. En la practica se pueden aplicar de cuatro maneras principales:
+Este manual permite trabajar con una metodologia estable:
 
-- Como guia de arquitectura de pagina: los videos explican el orden esperado de bloques, el objetivo de conversion de cada tramo y la logica con la que deberia pensarse una homepage, product page, collection page, cart, checkout o landing.
-- Como referencia de maquetado: los PDFs muestran la composicion estatica de cada variante y ayudan a bajar esa logica a layout concreto, tanto en desktop como en mobile.
-- Como material de validacion: permiten comparar una implementacion real contra una referencia y detectar si faltan modulos, si el orden esta alterado o si la propuesta de valor perdio claridad.
-- Como base para documentacion funcional: cada asset ayuda a describir que se espera de una pagina, que elementos prioriza y que resultado persigue dentro del recorrido del usuario.
+- Primero leer el video de cada familia para entender que problema resuelve la pagina y cual es su objetivo principal dentro del funnel.
+- Despues usar los PDFs de la misma familia para definir jerarquia de modulos, orden de lectura y comportamiento esperado entre desktop y mobile.
+- Luego traducir esa informacion a componentes reales: hero, notice bar, trust bar, social proof, FAQ, comparativas, formularios, CTAs, grids, timers o cualquier modulo que el asset muestre o describa.
+- Finalmente contrastar la implementacion real contra el asset para verificar que no se haya perdido ni la secuencia ni la funcion de cada bloque.
 
-Cuando se aplican bien, los resultados esperables son concretos: paginas mas ordenadas, mejor jerarquia visual, mayor consistencia entre versiones, implementaciones menos improvisadas y una lectura mas clara del rol que cumple cada seccion dentro del funnel.
+## Resultado esperado de este manual
+
+Si se usa bien, este manual deberia producir implementaciones mas consistentes, menos improvisadas y mas faciles de validar. El resultado esperado no es una copia ciega del wireframe, sino una traduccion fiel de su logica: paginas con orden claro, jerarquia visible, modulos bien priorizados y un objetivo de conversion reconocible en cada tramo del recorrido.
 
 ## .DS_Store
 
@@ -51,6 +55,16 @@ No sirve como contenido del relevamiento. Solo indica que la carpeta fue manipul
 **Como se aplica este archivo y que resultados da**
 
 Se aplica descartandolo del uso funcional. El resultado que da es limpieza en el relevamiento: evita ruido, reduce falsas interpretaciones y deja mas claro que archivos si aportan contenido real para analizar.
+
+**Como implementar este archivo**
+
+No se implementa. Este archivo debe excluirse del flujo de trabajo y no aporta ninguna definicion de interfaz, contenido o funcionalidad. Su valor operativo esta en dejar explicitamente fuera del alcance cualquier residuo tecnico del sistema para evitar ruido documental o falsas decisiones de implementacion.
+
+**Checklist final de implementacion**
+
+- El archivo fue descartado del alcance funcional.
+- No se uso como fuente de decisiones de interfaz, contenido o flujo.
+- La carpeta de trabajo quedo interpretada solo a partir de assets relevantes.
 
 **Que se puede verificar**
 
@@ -80,6 +94,18 @@ Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, e
 **Como se aplica este archivo y que resultados da**
 
 Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+
+**Como implementar este archivo**
+
+Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+
+**Checklist final de implementacion**
+
+- El orden de modulos implementado coincide con la secuencia que explica la narracion.
+- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
+- La pagina conserva el objetivo de conversion central del asset.
+- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
+- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
 
 **Que se puede verificar dentro del archivo**
 
@@ -150,9 +176,43 @@ Video narrado de la familia `Product page`. No es solo una demo visual: el audio
 
 Sirve para explicar el wireframe `Product page` y su funcion: pagina de producto para vender un SKU con informacion, prueba social, seleccion de variantes y cierre a compra. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
 
+En terminos practicos, este archivo puede usarse como base funcional para estructurar una pagina de producto orientada a conversion. El video no presenta la product page como una ficha tecnica aislada, sino como una pieza comercial completa que tiene que captar atencion, generar interes, construir confianza, responder objeciones y llevar a una accion concreta.
+
+La idea principal que transmite es que una product page no deberia limitarse a mostrar un producto. Su trabajo real es acompañar el proceso mental del usuario. Primero tiene que ayudar a entender rapidamente que se esta vendiendo. Despues tiene que dejar claro por que eso es valioso. Luego tiene que reducir fricciones, dudas o miedos. Finalmente, tiene que facilitar que la persona compre sin esfuerzo innecesario.
+
+El video tambien introduce una aclaracion muy importante para implementacion: no todas las tiendas pueden tener una pagina totalmente unica para cada producto. Si el catalogo tiene pocos productos, es razonable profundizar mucho en cada una. Pero si hay cientos o miles de SKUs, eso deja de ser operativo. Por eso el material propone pensar la pagina como un sistema flexible, donde algunas partes son especificas del producto y otras partes pueden ser comunes o dinamicas a nivel tienda. Esa observacion es clave porque muestra que una buena pagina no solo debe vender bien, sino tambien poder mantenerse en el tiempo.
+
+Otro eje central del video es la importancia del `above the fold`, sobre todo en mobile. El material insiste en que, apenas la persona entra, deberia encontrarse con los elementos esenciales para tomar una primera decision: una visual clara del producto, una señal de confianza, prueba social, una propuesta de valor orientada a beneficios, el precio y una llamada a la accion. La explicacion implicita es que, si esa primera pantalla no ordena bien la informacion, el resto de la pagina pierde fuerza porque llega tarde.
+
+La narracion remarca tambien que la navegacion debe mantenerse simple. No conviene llenar la cabecera con demasiados links, porque eso dispersa la atencion del usuario. En implementacion, esto se traduce como un principio de foco: cuantos mas caminos alternativos aparecen, menos energia queda concentrada en avanzar hacia la compra. El video asocia esta simplicidad con una experiencia mas limpia y con menos friccion.
+
+En el bloque principal de la pagina, el material destaca el uso de imagenes claras y multiples vistas del producto. En mobile, incluso pone enfasis en dejar visible que el usuario puede recorrer las imagenes. Esto es importante porque la imagen no cumple solo una funcion estetica: en una pagina de producto, la imagen reemplaza parcialmente la experiencia fisica de tocar o inspeccionar el producto. Cuanto mejor resuelta esta esa capa visual, mas facil es reducir incertidumbre.
+
+La prueba social aparece muy arriba y con bastante peso. El video menciona ejemplos como puntuaciones, cantidad de clientes satisfechos o indicadores parecidos. El sentido de este recurso es muy claro: antes de profundizar en detalles, la pagina intenta demostrar que otras personas ya confiaron. Eso actua como un atajo de credibilidad. En implementacion, esto funciona como una herramienta de validacion externa que no reemplaza la propuesta de valor, pero si la vuelve mas creible.
+
+Otro punto especialmente util del video es la insistencia en que el titulo o encabezado no deberia quedarse solo en el nombre del producto. El material sugiere trabajar una propuesta de valor orientada al beneficio. En otras palabras, no alcanza con decir que se vende; hay que mostrar que mejora produce, que problema resuelve o que transformacion promete. Esa diferencia es estructural: una pagina que solo enumera el producto informa, pero una pagina que comunica el beneficio empieza a persuadir.
+
+El recorrido general que se desprende del video sigue una secuencia bastante clara. Primero se llama la atencion. Luego se trabaja el interes con el bloque principal de producto. Mas abajo se profundiza en beneficios y caracteristicas. Despues aparecen capas que ayudan a comparar, validar y responder dudas, como comparativas o FAQ. Finalmente, la pagina vuelve a empujar la accion. En implementacion, esto deja claro que la product page funciona como un mini embudo de conversion dentro de una sola URL.
+
+Tambien aparece una advertencia metodologica importante: cuando el catalogo es muy grande, no todas las secciones pueden tener el mismo nivel de detalle por producto. El video sugiere entonces tomar decisiones estrategicas sobre que componentes valen la pena personalizar y cuales conviene estandarizar. Esa parte es muy util para implementacion porque obliga a pensar no solo en calidad comercial, sino tambien en escalabilidad operativa.
+
+En sintesis, este video deja una conclusion operativa clara: una pagina de producto efectiva tiene que cumplir varios trabajos a la vez. Tiene que informar con claridad, persuadir con beneficios, construir confianza con evidencia social y visual, reducir objeciones con estructura y contenido, y finalmente guiar a la accion con la menor friccion posible. Esa es la idea mas fuerte que deja el material: una buena product page no es una ficha bonita, sino una herramienta de conversion cuidadosamente ordenada.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+
+**Como implementar este archivo**
+
+Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+
+**Checklist final de implementacion**
+
+- El orden de modulos implementado coincide con la secuencia que explica la narracion.
+- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
+- La pagina conserva el objetivo de conversion central del asset.
+- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
+- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
 
 **Que se puede verificar dentro del archivo**
 
@@ -220,6 +280,18 @@ Sirve para ver la composicion completa de la version desktop: jerarquia de bloqu
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -258,6 +330,18 @@ Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplif
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
 
 **Que se puede verificar dentro del archivo**
 
@@ -301,6 +385,18 @@ Sirve para explicar el wireframe `Collections page` y su funcion: pagina de cole
 **Como se aplica este archivo y que resultados da**
 
 Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+
+**Como implementar este archivo**
+
+Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+
+**Checklist final de implementacion**
+
+- El orden de modulos implementado coincide con la secuencia que explica la narracion.
+- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
+- La pagina conserva el objetivo de conversion central del asset.
+- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
+- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
 
 **Que se puede verificar dentro del archivo**
 
@@ -400,6 +496,18 @@ Sirve para ver la composicion completa de la version desktop: jerarquia de bloqu
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -453,6 +561,18 @@ Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplif
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
 
 **Que se puede verificar dentro del archivo**
 
@@ -523,6 +643,18 @@ Sirve para explicar el wireframe `Cart draw` y su funcion: carrito lateral para 
 **Como se aplica este archivo y que resultados da**
 
 Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+
+**Como implementar este archivo**
+
+Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+
+**Checklist final de implementacion**
+
+- El orden de modulos implementado coincide con la secuencia que explica la narracion.
+- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
+- La pagina conserva el objetivo de conversion central del asset.
+- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
+- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
 
 **Que se puede verificar dentro del archivo**
 
@@ -620,6 +752,18 @@ Sirve para ver la composicion completa de la version desktop: jerarquia de bloqu
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -665,6 +809,18 @@ Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplif
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
 
 **Que se puede verificar dentro del archivo**
 
@@ -727,6 +883,18 @@ Sirve para ver la composicion completa de la version desktop: jerarquia de bloqu
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -771,6 +939,18 @@ Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplif
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
 
 **Que se puede verificar dentro del archivo**
 
@@ -841,6 +1021,18 @@ Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, e
 
 Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
 
+**Como implementar este archivo**
+
+Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+
+**Checklist final de implementacion**
+
+- El orden de modulos implementado coincide con la secuencia que explica la narracion.
+- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
+- La pagina conserva el objetivo de conversion central del asset.
+- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
+- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -910,6 +1102,18 @@ Sirve para ver la composicion completa de la version desktop: jerarquia de bloqu
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -948,6 +1152,18 @@ Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplif
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
 
 **Que se puede verificar dentro del archivo**
 
@@ -991,6 +1207,18 @@ Sirve para mostrar una pagina de tipo pre-sell. Dentro del set, esta familia se 
 **Como se aplica este archivo y que resultados da**
 
 Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+
+**Como implementar este archivo**
+
+Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+
+**Checklist final de implementacion**
+
+- El orden de modulos implementado coincide con la secuencia que explica la narracion.
+- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
+- La pagina conserva el objetivo de conversion central del asset.
+- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
+- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1087,6 +1315,18 @@ Sirve para ver la composicion completa de la version desktop: jerarquia de bloqu
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -1142,6 +1382,18 @@ Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplif
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1202,6 +1454,18 @@ Sirve para mostrar una pagina de tipo pre-sell. Dentro del set, esta familia se 
 **Como se aplica este archivo y que resultados da**
 
 Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+
+**Como implementar este archivo**
+
+Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+
+**Checklist final de implementacion**
+
+- El orden de modulos implementado coincide con la secuencia que explica la narracion.
+- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
+- La pagina conserva el objetivo de conversion central del asset.
+- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
+- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1269,6 +1533,18 @@ Sirve para ver la composicion completa de la version desktop: jerarquia de bloqu
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -1301,6 +1577,18 @@ Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplif
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1338,6 +1626,18 @@ Sirve para explicar el wireframe `Quiz page` y su funcion: quiz o survey funnel 
 **Como se aplica este archivo y que resultados da**
 
 Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+
+**Como implementar este archivo**
+
+Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+
+**Checklist final de implementacion**
+
+- El orden de modulos implementado coincide con la secuencia que explica la narracion.
+- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
+- La pagina conserva el objetivo de conversion central del asset.
+- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
+- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1398,6 +1698,18 @@ Sirve para ver la composicion completa de la version desktop: jerarquia de bloqu
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -1446,6 +1758,18 @@ Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplif
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1499,6 +1823,18 @@ Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, e
 **Como se aplica este archivo y que resultados da**
 
 Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+
+**Como implementar este archivo**
+
+Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+
+**Checklist final de implementacion**
+
+- El orden de modulos implementado coincide con la secuencia que explica la narracion.
+- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
+- La pagina conserva el objetivo de conversion central del asset.
+- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
+- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1567,6 +1903,18 @@ Sirve para ver la composicion completa de la version desktop: jerarquia de bloqu
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -1599,6 +1947,18 @@ Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplif
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1636,6 +1996,18 @@ Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, e
 **Como se aplica este archivo y que resultados da**
 
 Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+
+**Como implementar este archivo**
+
+Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+
+**Checklist final de implementacion**
+
+- El orden de modulos implementado coincide con la secuencia que explica la narracion.
+- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
+- La pagina conserva el objetivo de conversion central del asset.
+- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
+- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1706,6 +2078,18 @@ Sirve para ver la composicion completa de la version desktop: jerarquia de bloqu
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -1738,6 +2122,18 @@ Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplif
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1775,6 +2171,18 @@ Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, e
 **Como se aplica este archivo y que resultados da**
 
 Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+
+**Como implementar este archivo**
+
+Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+
+**Checklist final de implementacion**
+
+- El orden de modulos implementado coincide con la secuencia que explica la narracion.
+- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
+- La pagina conserva el objetivo de conversion central del asset.
+- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
+- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1841,6 +2249,18 @@ Sirve para ver la composicion completa de la version desktop: jerarquia de bloqu
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -1891,6 +2311,18 @@ Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplif
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -1938,6 +2370,18 @@ Sirve para ver la composicion completa de la version desktop: jerarquia de bloqu
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1997,6 +2441,18 @@ Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplif
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -2055,6 +2511,18 @@ Sirve para mostrar una pagina de tipo pre-sell. Dentro del set, esta familia se 
 **Como se aplica este archivo y que resultados da**
 
 Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+
+**Como implementar este archivo**
+
+Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+
+**Checklist final de implementacion**
+
+- El orden de modulos implementado coincide con la secuencia que explica la narracion.
+- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
+- La pagina conserva el objetivo de conversion central del asset.
+- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
+- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2119,6 +2587,18 @@ Sirve para ver la composicion completa de la version desktop: jerarquia de bloqu
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2214,6 +2694,18 @@ Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplif
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -2250,6 +2742,18 @@ Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, e
 **Como se aplica este archivo y que resultados da**
 
 Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+
+**Como implementar este archivo**
+
+Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+
+**Checklist final de implementacion**
+
+- El orden de modulos implementado coincide con la secuencia que explica la narracion.
+- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
+- La pagina conserva el objetivo de conversion central del asset.
+- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
+- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2326,6 +2830,18 @@ Sirve para ver la composicion completa de la version desktop: jerarquia de bloqu
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -2358,6 +2874,18 @@ Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplif
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2395,6 +2923,18 @@ Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, e
 **Como se aplica este archivo y que resultados da**
 
 Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+
+**Como implementar este archivo**
+
+Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+
+**Checklist final de implementacion**
+
+- El orden de modulos implementado coincide con la secuencia que explica la narracion.
+- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
+- La pagina conserva el objetivo de conversion central del asset.
+- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
+- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2467,6 +3007,18 @@ Sirve para ver la composicion completa de la version desktop: jerarquia de bloqu
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -2518,6 +3070,18 @@ Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplif
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2574,6 +3138,18 @@ Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, e
 **Como se aplica este archivo y que resultados da**
 
 Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+
+**Como implementar este archivo**
+
+Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+
+**Checklist final de implementacion**
+
+- El orden de modulos implementado coincide con la secuencia que explica la narracion.
+- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
+- La pagina conserva el objetivo de conversion central del asset.
+- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
+- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2638,6 +3214,18 @@ Sirve para ver la composicion completa de la version desktop: jerarquia de bloqu
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -2676,6 +3264,18 @@ Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplif
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2719,6 +3319,18 @@ Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, e
 **Como se aplica este archivo y que resultados da**
 
 Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+
+**Como implementar este archivo**
+
+Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+
+**Checklist final de implementacion**
+
+- El orden de modulos implementado coincide con la secuencia que explica la narracion.
+- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
+- La pagina conserva el objetivo de conversion central del asset.
+- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
+- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2788,6 +3400,18 @@ Sirve para ver la composicion completa de la version desktop: jerarquia de bloqu
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
+**Como implementar este archivo**
+
+Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+
+**Checklist final de implementacion**
+
+- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
+- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
+- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
+- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+
 **Que se puede verificar dentro del archivo**
 
 Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
@@ -2820,4 +3444,3 @@ Feat
 ## Conclusión
 
 Leído archivo por archivo, el Drive funciona como una biblioteca de patrones de paginas de conversion. Los videos son la capa explicativa y los PDFs la capa estatica de referencia. La señal mas rica aparece en las narraciones; los PDFs sirven para fijar layout, breakpoint o estado especifico de cada pantalla.
-
