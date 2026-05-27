@@ -5,21 +5,36 @@ Drive analizado: `https://drive.google.com/drive/folders/12p9jdfB1MrOiV8sJG5UkxK
 
 ## Como leer este documento
 
-La idea de esta version es que cada archivo quede explicado en lenguaje claro. Por eso cada bloque responde cuatro preguntas:
+La idea de esta version es que cada archivo quede explicado en lenguaje claro, pero tambien en lenguaje util para tomar decisiones. No alcanza con listar assets: cada bloque busca dejar en evidencia que tipo de pieza es, que rol cumple dentro del set y hasta donde se puede hablar con certeza sin inventar informacion.
 
-- `Que es este archivo`
-- `Para que sirve`
-- `Que se puede verificar de verdad dentro del archivo`
-- `Que extracto util deja el archivo`
+Por eso cada bloque responde varias preguntas fijas:
 
-Criterio estricto: no se agrega informacion externa al asset. Cuando algo sale solo del nombre del archivo, se dice. Cuando sale del audio del video, se apoya en la transcripcion. Cuando un PDF no tiene capa de texto, se aclara.
+- `Que es este archivo`: identifica la naturaleza real del asset. Aclara si se trata de un video narrado, un PDF estatico, una variante mobile/desktop o un archivo tecnico sin valor funcional. Este apartado sirve para ubicar rapidamente que clase de evidencia tenemos delante y evitar mezclar una explicacion conceptual con una maqueta o con un residuo de sistema.
+- `Para que sirve`: describe la utilidad concreta del archivo dentro del conjunto analizado. No habla de usos teoricos amplios, sino del aporte especifico que hace esa pieza dentro del funnel, del wireframe o del proceso de diseno/implementacion.
+- `Como se aplica este archivo y que resultados da`: traduce el asset a uso practico. Explica como podria usarse como insumo de diseno, maquetado, validacion, comparacion o documentacion, y que clase de resultado deja cuando se lo aplica bien.
+- `Que se puede verificar de verdad dentro del archivo`: separa evidencia real de interpretacion. Aca se deja por escrito que datos salen efectivamente del asset, ya sea por nombre, metadata, texto extraido, narracion transcripta o lectura visual limitada.
+- `Que extracto util deja el archivo`: conserva un fragmento verificable que funciona como muestra del material original y ayuda a justificar la descripcion hecha en el bloque.
+
+Criterio estricto: no se agrega informacion externa al asset. Cuando algo sale solo del nombre del archivo, se dice. Cuando sale del audio del video, se apoya en la transcripcion. Cuando un PDF no tiene capa de texto o casi no entrega texto util, se aclara de forma explicita.
 
 ## Resumen general
 
 - El Drive es una biblioteca de referencia para funnels, e-commerce, lead generation y landings de conversion.
-- Los videos contienen narracion en ingles que explica que es cada tipo de pagina y como deberia ordenarse.
-- Los PDFs son la capa estatica de esos mismos wireframes: en muchos casos tienen poco texto extraible porque son maquetas visuales.
+- Los videos contienen narracion en ingles que explica que es cada tipo de pagina, como deberia ordenarse y que decisiones de jerarquia o conversion prioriza.
+- Los PDFs son la capa estatica de esos mismos wireframes: en muchos casos tienen poco texto extraible porque son maquetas visuales, pero aun asi sirven para validar estructura, secuencia y densidad de bloques.
+- La combinacion video + PDF permite leer cada familia en dos niveles: logica explicada y composicion visual.
 - No se detecta material juridico, institucional ni documental de otro tipo.
+
+## Como aplicar estos archivos y que resultados producen
+
+Estos archivos sirven como insumo de trabajo, no solo como referencia pasiva. En la practica se pueden aplicar de cuatro maneras principales:
+
+- Como guia de arquitectura de pagina: los videos explican el orden esperado de bloques, el objetivo de conversion de cada tramo y la logica con la que deberia pensarse una homepage, product page, collection page, cart, checkout o landing.
+- Como referencia de maquetado: los PDFs muestran la composicion estatica de cada variante y ayudan a bajar esa logica a layout concreto, tanto en desktop como en mobile.
+- Como material de validacion: permiten comparar una implementacion real contra una referencia y detectar si faltan modulos, si el orden esta alterado o si la propuesta de valor perdio claridad.
+- Como base para documentacion funcional: cada asset ayuda a describir que se espera de una pagina, que elementos prioriza y que resultado persigue dentro del recorrido del usuario.
+
+Cuando se aplican bien, los resultados esperables son concretos: paginas mas ordenadas, mejor jerarquia visual, mayor consistencia entre versiones, implementaciones menos improvisadas y una lectura mas clara del rol que cumple cada seccion dentro del funnel.
 
 ## .DS_Store
 
@@ -27,13 +42,19 @@ Criterio estricto: no se agrega informacion externa al asset. Cuando algo sale s
 
 **Que es este archivo**
 
-Es un archivo tecnico de macOS/Finder.
+Es un archivo tecnico de macOS/Finder. Dentro de este relevamiento, eso deja claro que no estamos frente a una pieza de producto, diseno o contenido, sino ante un residuo tecnico del sistema de archivos.
 
 **Para que sirve**
 
-No sirve como contenido del relevamiento. Solo indica que la carpeta fue manipulada desde un entorno Apple.
+No sirve como contenido del relevamiento. Solo indica que la carpeta fue manipulada desde un entorno Apple. Su utilidad, precisamente, es marcar que debe excluirse del analisis funcional para no confundir un archivo tecnico del sistema con una pieza relevante del Drive.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica descartandolo del uso funcional. El resultado que da es limpieza en el relevamiento: evita ruido, reduce falsas interpretaciones y deja mas claro que archivos si aportan contenido real para analizar.
 
 **Que se puede verificar**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - No contiene contenido funcional del proyecto.
 
@@ -50,13 +71,19 @@ La familia `Homepage` agrupa archivos que muestran una misma clase de pagina. En
 
 **Que es este archivo**
 
-Video narrado de la familia `Homepage`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel.
+Video narrado de la familia `Homepage`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel. Dentro de este relevamiento, eso significa que el archivo aporta tanto evidencia visual como criterio explicado en voz: no solo deja ver una pantalla, sino tambien la intencion con la que esa pantalla deberia pensarse, ordenarse y presentarse.
 
 **Para que sirve**
 
-Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como pagina principal de tienda o marca para presentar propuesta de valor, confianza y acceso rapido a paginas de dinero.
+Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como pagina principal de tienda o marca para presentar propuesta de valor, confianza y acceso rapido a paginas de dinero. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Duracion real detectada: `308.4 s`.
 - Idioma detectado en la narracion: `en`.
@@ -117,13 +144,19 @@ La familia `Product page` agrupa archivos que muestran una misma clase de pagina
 
 **Que es este archivo**
 
-Video narrado de la familia `Product page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel.
+Video narrado de la familia `Product page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel. Dentro de este relevamiento, eso significa que el archivo aporta tanto evidencia visual como criterio explicado en voz: no solo deja ver una pantalla, sino tambien la intencion con la que esa pantalla deberia pensarse, ordenarse y presentarse.
 
 **Para que sirve**
 
-Sirve para explicar el wireframe `Product page` y su funcion: pagina de producto para vender un SKU con informacion, prueba social, seleccion de variantes y cierre a compra.
+Sirve para explicar el wireframe `Product page` y su funcion: pagina de producto para vender un SKU con informacion, prueba social, seleccion de variantes y cierre a compra. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Duracion real detectada: `634.8 s`.
 - Idioma detectado en la narracion: `en`.
@@ -177,13 +210,19 @@ Okay, this one's import
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Product page`.
+Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Product page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual.
+Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `7`.
@@ -210,13 +249,19 @@ Compar
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Product page`.
+Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Product page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual.
+Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `6`.
@@ -247,13 +292,19 @@ La familia `Collections page` agrupa archivos que muestran una misma clase de pa
 
 **Que es este archivo**
 
-Video narrado de la familia `Collections page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel.
+Video narrado de la familia `Collections page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel. Dentro de este relevamiento, eso significa que el archivo aporta tanto evidencia visual como criterio explicado en voz: no solo deja ver una pantalla, sino tambien la intencion con la que esa pantalla deberia pensarse, ordenarse y presentarse.
 
 **Para que sirve**
 
-Sirve para explicar el wireframe `Collections page` y su funcion: pagina de coleccion o categoria para mostrar multiples productos y facilitar exploracion de catalogo.
+Sirve para explicar el wireframe `Collections page` y su funcion: pagina de coleccion o categoria para mostrar multiples productos y facilitar exploracion de catalogo. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Duracion real detectada: `266.9 s`.
 - Idioma detectado en la narracion: `en`.
@@ -339,13 +390,19 @@ We've used these
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Collections page`.
+Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Collections page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual.
+Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `72`.
@@ -387,13 +444,19 @@ VI
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Collections page`.
+Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Collections page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual.
+Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `96`.
@@ -451,13 +514,19 @@ La familia `Cart draw` agrupa archivos que muestran una misma clase de pagina. E
 
 **Que es este archivo**
 
-Video narrado de la familia `Cart draw`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel.
+Video narrado de la familia `Cart draw`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel. Dentro de este relevamiento, eso significa que el archivo aporta tanto evidencia visual como criterio explicado en voz: no solo deja ver una pantalla, sino tambien la intencion con la que esa pantalla deberia pensarse, ordenarse y presentarse.
 
 **Para que sirve**
 
-Sirve para explicar el wireframe `Cart draw` y su funcion: carrito lateral para revisar compra sin salir de la pagina y empujar a checkout o venta adicional.
+Sirve para explicar el wireframe `Cart draw` y su funcion: carrito lateral para revisar compra sin salir de la pagina y empujar a checkout o venta adicional. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Duracion real detectada: `241.5 s`.
 - Idioma detectado en la narracion: `en`.
@@ -541,13 +610,19 @@ So just play aroun
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico desktop, estado vacio de la familia `Cart draw`.
+Segun el nombre del archivo, esto es un mockup estatico desktop, estado vacio de la familia `Cart draw`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual.
+Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `184`.
@@ -581,13 +656,19 @@ Lorem ipsum
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico mobile, estado vacio de la familia `Cart draw`.
+Segun el nombre del archivo, esto es un mockup estatico mobile, estado vacio de la familia `Cart draw`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual.
+Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `75`.
@@ -636,13 +717,19 @@ check_circle
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico desktop, estado completo de la familia `Cart draw`.
+Segun el nombre del archivo, esto es un mockup estatico desktop, estado completo de la familia `Cart draw`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual.
+Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `218`.
@@ -675,13 +762,19 @@ Lorem ipsum                                                                     
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico mobile, estado completo de la familia `Cart draw`.
+Segun el nombre del archivo, esto es un mockup estatico mobile, estado completo de la familia `Cart draw`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual.
+Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `105`.
@@ -738,13 +831,19 @@ La familia `Sales page` agrupa archivos que muestran una misma clase de pagina. 
 
 **Que es este archivo**
 
-Video narrado de la familia `Sales page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel.
+Video narrado de la familia `Sales page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel. Dentro de este relevamiento, eso significa que el archivo aporta tanto evidencia visual como criterio explicado en voz: no solo deja ver una pantalla, sino tambien la intencion con la que esa pantalla deberia pensarse, ordenarse y presentarse.
 
 **Para que sirve**
 
-Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como sales page cerrada, con foco en conversion directa y pocas o nulas distracciones de navegacion.
+Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como sales page cerrada, con foco en conversion directa y pocas o nulas distracciones de navegacion. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Duracion real detectada: `225.6 s`.
 - Idioma detectado en la narracion: `en`.
@@ -801,13 +900,19 @@ They work very very
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Sales page`.
+Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Sales page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual.
+Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `7`.
@@ -834,13 +939,19 @@ Compar
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Sales page`.
+Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Sales page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual.
+Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `6`.
@@ -871,13 +982,19 @@ La familia `Listicle page` agrupa archivos que muestran una misma clase de pagin
 
 **Que es este archivo**
 
-Video narrado de la familia `Listicle page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel.
+Video narrado de la familia `Listicle page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel. Dentro de este relevamiento, eso significa que el archivo aporta tanto evidencia visual como criterio explicado en voz: no solo deja ver una pantalla, sino tambien la intencion con la que esa pantalla deberia pensarse, ordenarse y presentarse.
 
 **Para que sirve**
 
-Sirve para mostrar una pagina de tipo pre-sell. Dentro del set, esta familia se usa como pieza de pre-sell tipo lista o ranking para educar antes de llevar a compra.
+Sirve para mostrar una pagina de tipo pre-sell. Dentro del set, esta familia se usa como pieza de pre-sell tipo lista o ranking para educar antes de llevar a compra. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Duracion real detectada: `303.6 s`.
 - Idioma detectado en la narracion: `en`.
@@ -960,13 +1077,19 @@ as a gift lifting some weights or on the running m
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Listicle page`.
+Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Listicle page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual.
+Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `22`.
@@ -1010,13 +1133,19 @@ SubHeadl
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Listicle page`.
+Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Listicle page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual.
+Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `22`.
@@ -1064,13 +1193,19 @@ La familia `Advertorial page` agrupa archivos que muestran una misma clase de pa
 
 **Que es este archivo**
 
-Video narrado de la familia `Advertorial page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel.
+Video narrado de la familia `Advertorial page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel. Dentro de este relevamiento, eso significa que el archivo aporta tanto evidencia visual como criterio explicado en voz: no solo deja ver una pantalla, sino tambien la intencion con la que esa pantalla deberia pensarse, ordenarse y presentarse.
 
 **Para que sirve**
 
-Sirve para mostrar una pagina de tipo pre-sell. Dentro del set, esta familia se usa como pieza de pre-sell editorial para educar y preparar a la persona antes de enviarla a una oferta.
+Sirve para mostrar una pagina de tipo pre-sell. Dentro del set, esta familia se usa como pieza de pre-sell editorial para educar y preparar a la persona antes de enviarla a una oferta. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Duracion real detectada: `376.4 s`.
 - Idioma detectado en la narracion: `en`.
@@ -1124,13 +1259,19 @@ want this quite far down the pag
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Advertorial page`.
+Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Advertorial page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual.
+Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `0`.
@@ -1151,13 +1292,19 @@ No se pudo extraer texto legible del PDF; el aporte del archivo es principalment
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Advertorial page`.
+Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Advertorial page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual.
+Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `0`.
@@ -1182,13 +1329,19 @@ La familia `Quiz page` agrupa archivos que muestran una misma clase de pagina. E
 
 **Que es este archivo**
 
-Video narrado de la familia `Quiz page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel.
+Video narrado de la familia `Quiz page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel. Dentro de este relevamiento, eso significa que el archivo aporta tanto evidencia visual como criterio explicado en voz: no solo deja ver una pantalla, sino tambien la intencion con la que esa pantalla deberia pensarse, ordenarse y presentarse.
 
 **Para que sirve**
 
-Sirve para explicar el wireframe `Quiz page` y su funcion: quiz o survey funnel para calificar al usuario y dirigirlo a una recomendacion o resultado.
+Sirve para explicar el wireframe `Quiz page` y su funcion: quiz o survey funnel para calificar al usuario y dirigirlo a una recomendacion o resultado. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Duracion real detectada: `285.7 s`.
 - Idioma detectado en la narracion: `en`.
@@ -1235,13 +1388,19 @@ Ask the questions, obviously, first and foremost, up the top. So, you know, are 
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Quiz page`.
+Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Quiz page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual.
+Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `15`.
@@ -1278,13 +1437,19 @@ Val
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Quiz page`.
+Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Quiz page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual.
+Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `15`.
@@ -1325,13 +1490,19 @@ La familia `Lead generation page` agrupa archivos que muestran una misma clase d
 
 **Que es este archivo**
 
-Video narrado de la familia `Lead generation page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel.
+Video narrado de la familia `Lead generation page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel. Dentro de este relevamiento, eso significa que el archivo aporta tanto evidencia visual como criterio explicado en voz: no solo deja ver una pantalla, sino tambien la intencion con la que esa pantalla deberia pensarse, ordenarse y presentarse.
 
 **Para que sirve**
 
-Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como landing de captura de datos para generar leads mediante formulario.
+Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como landing de captura de datos para generar leads mediante formulario. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Duracion real detectada: `324.5 s`.
 - Idioma detectado en la narracion: `en`.
@@ -1386,13 +1557,19 @@ that explains exactly wha
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Lead generation page`.
+Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Lead generation page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual.
+Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `0`.
@@ -1413,13 +1590,19 @@ No se pudo extraer texto legible del PDF; el aporte del archivo es principalment
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Lead generation page`.
+Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Lead generation page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual.
+Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `0`.
@@ -1444,13 +1627,19 @@ La familia `Multistep lead generation page` agrupa archivos que muestran una mis
 
 **Que es este archivo**
 
-Video narrado de la familia `Multistep lead generation page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel.
+Video narrado de la familia `Multistep lead generation page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel. Dentro de este relevamiento, eso significa que el archivo aporta tanto evidencia visual como criterio explicado en voz: no solo deja ver una pantalla, sino tambien la intencion con la que esa pantalla deberia pensarse, ordenarse y presentarse.
 
 **Para que sirve**
 
-Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como captura de leads en varios pasos para hacer mas liviano un formulario largo.
+Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como captura de leads en varios pasos para hacer mas liviano un formulario largo. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Duracion real detectada: `265.7 s`.
 - Idioma detectado en la narracion: `en`.
@@ -1507,13 +1696,19 @@ Kind of emojis or bullet points and bolding key phras
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Multistep lead generation page`.
+Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Multistep lead generation page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual.
+Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `0`.
@@ -1534,13 +1729,19 @@ No se pudo extraer texto legible del PDF; el aporte del archivo es principalment
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Multistep lead generation page`.
+Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Multistep lead generation page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual.
+Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `0`.
@@ -1565,13 +1766,19 @@ La familia `Opt-In pages` agrupa archivos que muestran una misma clase de pagina
 
 **Que es este archivo**
 
-Video narrado de la familia `Opt-In pages`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel.
+Video narrado de la familia `Opt-In pages`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel. Dentro de este relevamiento, eso significa que el archivo aporta tanto evidencia visual como criterio explicado en voz: no solo deja ver una pantalla, sino tambien la intencion con la que esa pantalla deberia pensarse, ordenarse y presentarse.
 
 **Para que sirve**
 
-Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como captura simple de email o datos minimos, tanto en pagina como en modal.
+Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como captura simple de email o datos minimos, tanto en pagina como en modal. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Duracion real detectada: `270.2 s`.
 - Idioma detectado en la narracion: `en`.
@@ -1624,13 +1831,19 @@ So a real image of a real person first l
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Opt-In pages`.
+Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Opt-In pages`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual.
+Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `16`.
@@ -1668,13 +1881,19 @@ Websi
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Opt-In pages`.
+Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Opt-In pages`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual.
+Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `14`.
@@ -1710,13 +1929,19 @@ Val
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico desktop, variante modal de la familia `Opt-In pages`.
+Segun el nombre del archivo, esto es un mockup estatico desktop, variante modal de la familia `Opt-In pages`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual.
+Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `24`.
@@ -1762,13 +1987,19 @@ Websi
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico mobile, variante modal de la familia `Opt-In pages`.
+Segun el nombre del archivo, esto es un mockup estatico mobile, variante modal de la familia `Opt-In pages`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual.
+Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `21`.
@@ -1815,13 +2046,19 @@ La familia `Top X page` agrupa archivos que muestran una misma clase de pagina. 
 
 **Que es este archivo**
 
-Video narrado de la familia `Top X page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel.
+Video narrado de la familia `Top X page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel. Dentro de este relevamiento, eso significa que el archivo aporta tanto evidencia visual como criterio explicado en voz: no solo deja ver una pantalla, sino tambien la intencion con la que esa pantalla deberia pensarse, ordenarse y presentarse.
 
 **Para que sirve**
 
-Sirve para mostrar una pagina de tipo pre-sell. Dentro del set, esta familia se usa como pagina comparativa o review page para contrastar una opcion contra otras y pre-vender una decision.
+Sirve para mostrar una pagina de tipo pre-sell. Dentro del set, esta familia se usa como pagina comparativa o review page para contrastar una opcion contra otras y pre-vender una decision. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Duracion real detectada: `341.8 s`.
 - Idioma detectado en la narracion: `en`.
@@ -1873,13 +2110,19 @@ but though that list you can the
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Top X page`.
+Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Top X page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual.
+Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `158`.
@@ -1961,13 +2204,19 @@ Label
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Top X page`.
+Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Top X page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual.
+Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `0`.
@@ -1992,13 +2241,19 @@ La familia `VSL page` agrupa archivos que muestran una misma clase de pagina. En
 
 **Que es este archivo**
 
-Video narrado de la familia `VSL page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel.
+Video narrado de la familia `VSL page`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel. Dentro de este relevamiento, eso significa que el archivo aporta tanto evidencia visual como criterio explicado en voz: no solo deja ver una pantalla, sino tambien la intencion con la que esa pantalla deberia pensarse, ordenarse y presentarse.
 
 **Para que sirve**
 
-Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como video sales letter donde el video es el nucleo de la venta.
+Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como video sales letter donde el video es el nucleo de la venta. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Duracion real detectada: `299.5 s`.
 - Idioma detectado en la narracion: `en`.
@@ -2061,13 +2316,19 @@ So this is nicely done with kind of
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `VSL page`.
+Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `VSL page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual.
+Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `0`.
@@ -2088,13 +2349,19 @@ No se pudo extraer texto legible del PDF; el aporte del archivo es principalment
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `VSL page`.
+Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `VSL page`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual.
+Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `0`.
@@ -2119,13 +2386,19 @@ La familia `Webinar` agrupa archivos que muestran una misma clase de pagina. En 
 
 **Que es este archivo**
 
-Video narrado de la familia `Webinar`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel.
+Video narrado de la familia `Webinar`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel. Dentro de este relevamiento, eso significa que el archivo aporta tanto evidencia visual como criterio explicado en voz: no solo deja ver una pantalla, sino tambien la intencion con la que esa pantalla deberia pensarse, ordenarse y presentarse.
 
 **Para que sirve**
 
-Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como pagina de registro a webinar o evento guiado.
+Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como pagina de registro a webinar o evento guiado. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Duracion real detectada: `353.2 s`.
 - Idioma detectado en la narracion: `en`.
@@ -2184,13 +2457,19 @@ sure that your form
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Webinar`.
+Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Webinar`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual.
+Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `18`.
@@ -2230,13 +2509,19 @@ Headl
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Webinar`.
+Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Webinar`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual.
+Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `18`.
@@ -2280,13 +2565,19 @@ La familia `SaaS` agrupa archivos que muestran una misma clase de pagina. En gen
 
 **Que es este archivo**
 
-Video narrado de la familia `SaaS`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel.
+Video narrado de la familia `SaaS`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel. Dentro de este relevamiento, eso significa que el archivo aporta tanto evidencia visual como criterio explicado en voz: no solo deja ver una pantalla, sino tambien la intencion con la que esa pantalla deberia pensarse, ordenarse y presentarse.
 
 **Para que sirve**
 
-Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como landing o homepage para producto SaaS.
+Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como landing o homepage para producto SaaS. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Duracion real detectada: `331.7 s`.
 - Idioma detectado en la narracion: `en`.
@@ -2337,13 +2628,19 @@ Sit back and relax
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `SaaS`.
+Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `SaaS`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual.
+Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `7`.
@@ -2370,13 +2667,19 @@ Compar
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `SaaS`.
+Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `SaaS`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual.
+Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `6`.
@@ -2407,13 +2710,19 @@ La familia `Service` agrupa archivos que muestran una misma clase de pagina. En 
 
 **Que es este archivo**
 
-Video narrado de la familia `Service`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel.
+Video narrado de la familia `Service`. No es solo una demo visual: el audio explica como deberia construirse esa pagina y que rol cumple dentro del funnel. Dentro de este relevamiento, eso significa que el archivo aporta tanto evidencia visual como criterio explicado en voz: no solo deja ver una pantalla, sino tambien la intencion con la que esa pantalla deberia pensarse, ordenarse y presentarse.
 
 **Para que sirve**
 
-Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como landing de servicio o agencia para explicar oferta y llevar a consulta o discovery call.
+Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como landing de servicio o agencia para explicar oferta y llevar a consulta o discovery call. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Duracion real detectada: `321.5 s`.
 - Idioma detectado en la narracion: `en`.
@@ -2469,13 +2778,19 @@ lesson we go to our transforma
 
 **Que es este archivo**
 
-Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Service`.
+Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Service`. Dentro de este relevamiento, eso significa que el archivo funciona como evidencia visual fija: no desarrolla una explicacion narrativa por si mismo, pero si deja ver la estructura, el orden y la densidad de los modulos tal como fueron maquetados en esa variante.
 
 **Para que sirve**
 
-Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual.
+Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Como se aplica este archivo y que resultados da**
+
+Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
 
 **Que se puede verificar dentro del archivo**
+
+Este apartado deja explicitamente fuera cualquier lectura funcional no respaldada por el archivo y conserva solo lo que efectivamente puede comprobarse.
 
 - Paginas detectadas: `1`.
 - Palabras extraidas: `14`.
