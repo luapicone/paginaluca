@@ -11,13 +11,14 @@ Por eso cada bloque responde preguntas orientadas a implementacion:
 
 - `Que es este archivo`: identifica con precision la naturaleza del asset para saber si debe leerse como explicacion, como wireframe visual o como archivo tecnico descartable.
 - `Para que sirve`: deja claro el rol concreto de la pieza dentro de una pagina, un funnel o una familia de pantallas.
+- `Teoria del archivo`: explica el principio de pagina, conversion o UX que el asset representa, para no copiar una pantalla sin entender la logica que la vuelve efectiva.
 - `Como se aplica este archivo y que resultados da`: traduce el asset a decisiones de trabajo. Ayuda a entender como usarlo durante diseno, maquetado, armado de modulos, priorizacion de contenido o control final.
 - `Como implementar este archivo`: baja el material a instrucciones operativas. Indica como conviene convertir el asset en una pagina real, que decisiones conviene respetar y que objetivo practico deberia cumplirse al implementarlo.
 - `Checklist final de implementacion`: deja una lista de control breve para verificar si la pieza ya esta lista para pasar como implementacion consistente respecto del material fuente.
 - `Que se puede verificar de verdad dentro del archivo`: separa lo que esta efectivamente sustentado por el asset de cualquier interpretacion no confirmada.
 - `Que extracto util deja el archivo`: conserva una muestra verificable del material original para justificar decisiones de implementacion o lectura funcional.
 
-Criterio estricto: el manual sigue sin inventar informacion externa al asset. Cuando algo sale solo del nombre del archivo, se dice. Cuando sale del audio del video, se apoya en la transcripcion. Cuando un PDF no tiene capa de texto o casi no entrega texto util, se aclara de forma explicita.
+Criterio estricto: el manual sigue sin inventar informacion externa al asset. Cuando algo sale solo del nombre del archivo, se dice. Cuando sale del audio del video, se apoya en la transcripcion. Cuando un PDF no tiene capa de texto o casi no entrega texto util, se aclara de forma explicita. La teoria agregada en cada asset no introduce datos nuevos sobre la marca o el negocio: formula el patron funcional que el propio archivo deja ver o explicar.
 
 ## Resumen ejecutivo del manual
 
@@ -51,6 +52,10 @@ Es un archivo tecnico de macOS/Finder. Dentro de este relevamiento, eso deja cla
 **Para que sirve**
 
 No sirve como contenido del relevamiento. Solo indica que la carpeta fue manipulada desde un entorno Apple. Su utilidad, precisamente, es marcar que debe excluirse del analisis funcional para no confundir un archivo tecnico del sistema con una pieza relevante del Drive.
+
+**Teoria del archivo**
+
+La teoria de este archivo es negativa pero util: en cualquier relevamiento serio hay que separar assets de sistema de assets de producto. El valor metodologico no esta en interpretarlo, sino en reconocer que los residuos tecnicos no deben contaminar decisiones de UX, contenido o negocio.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -90,6 +95,10 @@ Video narrado de la familia `Homepage`. No es solo una demo visual: el audio exp
 **Para que sirve**
 
 Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como pagina principal de tienda o marca para presentar propuesta de valor, confianza y acceso rapido a paginas de dinero. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Teoria del archivo**
+
+La teoria de una homepage de conversion es que no existe solo para presentar una marca, sino para orientar la atencion, construir confianza rapido y distribuir trafico hacia paginas con mayor intencion comercial. Su estructura suele combinar propuesta de valor, prueba social, categorias o accesos clave y modulos que acercan al usuario a una accion de dinero sin friccion innecesaria. En formato video, esta teoria se vuelve especialmente util porque el asset no solo muestra layout: tambien suele explicar orden, prioridad, argumentos y criterio de conversion. Por eso conviene leerlo como fuente de logica antes que como simple demo visual.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -198,6 +207,10 @@ Tambien aparece una advertencia metodologica importante: cuando el catalogo es m
 
 En sintesis, este video deja una conclusion operativa clara: una pagina de producto efectiva tiene que cumplir varios trabajos a la vez. Tiene que informar con claridad, persuadir con beneficios, construir confianza con evidencia social y visual, reducir objeciones con estructura y contenido, y finalmente guiar a la accion con la menor friccion posible. Esa es la idea mas fuerte que deja el material: una buena product page no es una ficha bonita, sino una herramienta de conversion cuidadosamente ordenada.
 
+**Teoria del archivo**
+
+La teoria de una product page es que funciona como un vendedor digital en una sola URL. Tiene que reducir incertidumbre, explicar el beneficio, demostrar credibilidad, responder objeciones y acercar al clic de compra con el menor esfuerzo cognitivo posible. En formato video, esta teoria se vuelve especialmente util porque el asset no solo muestra layout: tambien suele explicar orden, prioridad, argumentos y criterio de conversion. Por eso conviene leerlo como fuente de logica antes que como simple demo visual.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
@@ -276,6 +289,10 @@ Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `P
 
 Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
 
+**Teoria del archivo**
+
+La teoria de una product page es que funciona como un vendedor digital en una sola URL. Tiene que reducir incertidumbre, explicar el beneficio, demostrar credibilidad, responder objeciones y acercar al clic de compra con el menor esfuerzo cognitivo posible. En su variante desktop, esa teoria se traduce en composicion horizontal, jerarquia visible en primer pantallazo y uso del ancho para ordenar informacion, prueba y CTAs sin perder escaneabilidad. El PDF sirve para verificar como se materializa el patron cuando hay mas superficie disponible y mas libertad de layout.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
@@ -326,6 +343,10 @@ Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Pr
 **Para que sirve**
 
 Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Teoria del archivo**
+
+La teoria de una product page es que funciona como un vendedor digital en una sola URL. Tiene que reducir incertidumbre, explicar el beneficio, demostrar credibilidad, responder objeciones y acercar al clic de compra con el menor esfuerzo cognitivo posible. En su variante mobile, esa teoria se traduce en compresion, secuencia vertical y decisiones de prioridad mucho mas estrictas. El PDF sirve para verificar que el patron siga funcionando cuando el espacio obliga a simplificar, apilar y poner cada CTA dentro de un recorrido mas corto y tactil.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -381,6 +402,10 @@ Video narrado de la familia `Collections page`. No es solo una demo visual: el a
 **Para que sirve**
 
 Sirve para explicar el wireframe `Collections page` y su funcion: pagina de coleccion o categoria para mostrar multiples productos y facilitar exploracion de catalogo. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Teoria del archivo**
+
+La teoria de una collection page es intermedia: no vende solo una marca ni cierra todavia una compra puntual, sino que organiza opciones para que la persona encuentre rapido el producto correcto. Su trabajo principal es bajar friccion de exploracion, clarificar categorias y sostener el impulso hacia la ficha individual. En formato video, esta teoria se vuelve especialmente util porque el asset no solo muestra layout: tambien suele explicar orden, prioridad, argumentos y criterio de conversion. Por eso conviene leerlo como fuente de logica antes que como simple demo visual.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -492,6 +517,10 @@ Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `C
 
 Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
 
+**Teoria del archivo**
+
+La teoria de una collection page es intermedia: no vende solo una marca ni cierra todavia una compra puntual, sino que organiza opciones para que la persona encuentre rapido el producto correcto. Su trabajo principal es bajar friccion de exploracion, clarificar categorias y sostener el impulso hacia la ficha individual. En su variante desktop, esa teoria se traduce en composicion horizontal, jerarquia visible en primer pantallazo y uso del ancho para ordenar informacion, prueba y CTAs sin perder escaneabilidad. El PDF sirve para verificar como se materializa el patron cuando hay mas superficie disponible y mas libertad de layout.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
@@ -557,6 +586,10 @@ Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Co
 **Para que sirve**
 
 Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Teoria del archivo**
+
+La teoria de una collection page es intermedia: no vende solo una marca ni cierra todavia una compra puntual, sino que organiza opciones para que la persona encuentre rapido el producto correcto. Su trabajo principal es bajar friccion de exploracion, clarificar categorias y sostener el impulso hacia la ficha individual. En su variante mobile, esa teoria se traduce en compresion, secuencia vertical y decisiones de prioridad mucho mas estrictas. El PDF sirve para verificar que el patron siga funcionando cuando el espacio obliga a simplificar, apilar y poner cada CTA dentro de un recorrido mas corto y tactil.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -639,6 +672,10 @@ Video narrado de la familia `Cart draw`. No es solo una demo visual: el audio ex
 **Para que sirve**
 
 Sirve para explicar el wireframe `Cart draw` y su funcion: carrito lateral para revisar compra sin salir de la pagina y empujar a checkout o venta adicional. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Teoria del archivo**
+
+La teoria del cart draw es microconversion pura: mostrar progreso de compra sin sacar al usuario del contexto donde decidio agregar. Ese patron busca preservar momentum, reducir la ruptura del flujo y ofrecer confirmacion, edicion basica y siguiente paso en una capa liviana. En formato video, esta teoria se vuelve especialmente util porque el asset no solo muestra layout: tambien suele explicar orden, prioridad, argumentos y criterio de conversion. Por eso conviene leerlo como fuente de logica antes que como simple demo visual.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -748,6 +785,10 @@ Segun el nombre del archivo, esto es un mockup estatico desktop, estado vacio de
 
 Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
 
+**Teoria del archivo**
+
+La teoria del cart draw es microconversion pura: mostrar progreso de compra sin sacar al usuario del contexto donde decidio agregar. Ese patron busca preservar momentum, reducir la ruptura del flujo y ofrecer confirmacion, edicion basica y siguiente paso en una capa liviana. En su variante desktop, esa teoria se traduce en composicion horizontal, jerarquia visible en primer pantallazo y uso del ancho para ordenar informacion, prueba y CTAs sin perder escaneabilidad. El PDF sirve para verificar como se materializa el patron cuando hay mas superficie disponible y mas libertad de layout.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
@@ -805,6 +846,10 @@ Segun el nombre del archivo, esto es un mockup estatico mobile, estado vacio de 
 **Para que sirve**
 
 Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Teoria del archivo**
+
+La teoria del cart draw es microconversion pura: mostrar progreso de compra sin sacar al usuario del contexto donde decidio agregar. Ese patron busca preservar momentum, reducir la ruptura del flujo y ofrecer confirmacion, edicion basica y siguiente paso en una capa liviana. En su variante mobile, esa teoria se traduce en compresion, secuencia vertical y decisiones de prioridad mucho mas estrictas. El PDF sirve para verificar que el patron siga funcionando cuando el espacio obliga a simplificar, apilar y poner cada CTA dentro de un recorrido mas corto y tactil.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -879,6 +924,10 @@ Segun el nombre del archivo, esto es un mockup estatico desktop, estado completo
 
 Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
 
+**Teoria del archivo**
+
+La teoria del cart draw es microconversion pura: mostrar progreso de compra sin sacar al usuario del contexto donde decidio agregar. Ese patron busca preservar momentum, reducir la ruptura del flujo y ofrecer confirmacion, edicion basica y siguiente paso en una capa liviana. En su variante desktop, esa teoria se traduce en composicion horizontal, jerarquia visible en primer pantallazo y uso del ancho para ordenar informacion, prueba y CTAs sin perder escaneabilidad. El PDF sirve para verificar como se materializa el patron cuando hay mas superficie disponible y mas libertad de layout.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
@@ -935,6 +984,10 @@ Segun el nombre del archivo, esto es un mockup estatico mobile, estado completo 
 **Para que sirve**
 
 Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Teoria del archivo**
+
+La teoria del cart draw es microconversion pura: mostrar progreso de compra sin sacar al usuario del contexto donde decidio agregar. Ese patron busca preservar momentum, reducir la ruptura del flujo y ofrecer confirmacion, edicion basica y siguiente paso en una capa liviana. En su variante mobile, esa teoria se traduce en compresion, secuencia vertical y decisiones de prioridad mucho mas estrictas. El PDF sirve para verificar que el patron siga funcionando cuando el espacio obliga a simplificar, apilar y poner cada CTA dentro de un recorrido mas corto y tactil.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -1017,6 +1070,10 @@ Video narrado de la familia `Sales page`. No es solo una demo visual: el audio e
 
 Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como sales page cerrada, con foco en conversion directa y pocas o nulas distracciones de navegacion. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
 
+**Teoria del archivo**
+
+La teoria de una sales page es la persuasion secuencial. La pagina se construye como un argumento largo donde cada bloque resuelve una etapa mental distinta: atencion, problema, deseo, mecanismo, prueba, objeciones y accion. En formato video, esta teoria se vuelve especialmente util porque el asset no solo muestra layout: tambien suele explicar orden, prioridad, argumentos y criterio de conversion. Por eso conviene leerlo como fuente de logica antes que como simple demo visual.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
@@ -1098,6 +1155,10 @@ Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `S
 
 Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
 
+**Teoria del archivo**
+
+La teoria de una sales page es la persuasion secuencial. La pagina se construye como un argumento largo donde cada bloque resuelve una etapa mental distinta: atencion, problema, deseo, mecanismo, prueba, objeciones y accion. En su variante desktop, esa teoria se traduce en composicion horizontal, jerarquia visible en primer pantallazo y uso del ancho para ordenar informacion, prueba y CTAs sin perder escaneabilidad. El PDF sirve para verificar como se materializa el patron cuando hay mas superficie disponible y mas libertad de layout.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
@@ -1148,6 +1209,10 @@ Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Sa
 **Para que sirve**
 
 Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Teoria del archivo**
+
+La teoria de una sales page es la persuasion secuencial. La pagina se construye como un argumento largo donde cada bloque resuelve una etapa mental distinta: atencion, problema, deseo, mecanismo, prueba, objeciones y accion. En su variante mobile, esa teoria se traduce en compresion, secuencia vertical y decisiones de prioridad mucho mas estrictas. El PDF sirve para verificar que el patron siga funcionando cuando el espacio obliga a simplificar, apilar y poner cada CTA dentro de un recorrido mas corto y tactil.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -1203,6 +1268,10 @@ Video narrado de la familia `Listicle page`. No es solo una demo visual: el audi
 **Para que sirve**
 
 Sirve para mostrar una pagina de tipo pre-sell. Dentro del set, esta familia se usa como pieza de pre-sell tipo lista o ranking para educar antes de llevar a compra. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Teoria del archivo**
+
+La teoria de una listicle page es usar una estructura editorial familiar para vender o precalificar sin parecer una ficha comercial directa. El formato de lista ordena comparaciones, sostiene curiosidad y facilita que el usuario avance porque siente que esta leyendo una recomendacion o ranking util. En formato video, esta teoria se vuelve especialmente util porque el asset no solo muestra layout: tambien suele explicar orden, prioridad, argumentos y criterio de conversion. Por eso conviene leerlo como fuente de logica antes que como simple demo visual.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -1311,6 +1380,10 @@ Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `L
 
 Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
 
+**Teoria del archivo**
+
+La teoria de una listicle page es usar una estructura editorial familiar para vender o precalificar sin parecer una ficha comercial directa. El formato de lista ordena comparaciones, sostiene curiosidad y facilita que el usuario avance porque siente que esta leyendo una recomendacion o ranking util. En su variante desktop, esa teoria se traduce en composicion horizontal, jerarquia visible en primer pantallazo y uso del ancho para ordenar informacion, prueba y CTAs sin perder escaneabilidad. El PDF sirve para verificar como se materializa el patron cuando hay mas superficie disponible y mas libertad de layout.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
@@ -1378,6 +1451,10 @@ Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Li
 **Para que sirve**
 
 Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Teoria del archivo**
+
+La teoria de una listicle page es usar una estructura editorial familiar para vender o precalificar sin parecer una ficha comercial directa. El formato de lista ordena comparaciones, sostiene curiosidad y facilita que el usuario avance porque siente que esta leyendo una recomendacion o ranking util. En su variante mobile, esa teoria se traduce en compresion, secuencia vertical y decisiones de prioridad mucho mas estrictas. El PDF sirve para verificar que el patron siga funcionando cuando el espacio obliga a simplificar, apilar y poner cada CTA dentro de un recorrido mas corto y tactil.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -1450,6 +1527,10 @@ Video narrado de la familia `Advertorial page`. No es solo una demo visual: el a
 **Para que sirve**
 
 Sirve para mostrar una pagina de tipo pre-sell. Dentro del set, esta familia se usa como pieza de pre-sell editorial para educar y preparar a la persona antes de enviarla a una oferta. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Teoria del archivo**
+
+La teoria del advertorial es hibrida: combina codigos de articulo editorial con intencion comercial. Sirve para calentar trafico frio, instalar una narrativa mas creible y mover al lector desde curiosidad o identificacion hasta interes por la oferta. En formato video, esta teoria se vuelve especialmente util porque el asset no solo muestra layout: tambien suele explicar orden, prioridad, argumentos y criterio de conversion. Por eso conviene leerlo como fuente de logica antes que como simple demo visual.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -1529,6 +1610,10 @@ Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `A
 
 Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
 
+**Teoria del archivo**
+
+La teoria del advertorial es hibrida: combina codigos de articulo editorial con intencion comercial. Sirve para calentar trafico frio, instalar una narrativa mas creible y mover al lector desde curiosidad o identificacion hasta interes por la oferta. En su variante desktop, esa teoria se traduce en composicion horizontal, jerarquia visible en primer pantallazo y uso del ancho para ordenar informacion, prueba y CTAs sin perder escaneabilidad. El PDF sirve para verificar como se materializa el patron cuando hay mas superficie disponible y mas libertad de layout.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
@@ -1573,6 +1658,10 @@ Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Ad
 **Para que sirve**
 
 Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Teoria del archivo**
+
+La teoria del advertorial es hibrida: combina codigos de articulo editorial con intencion comercial. Sirve para calentar trafico frio, instalar una narrativa mas creible y mover al lector desde curiosidad o identificacion hasta interes por la oferta. En su variante mobile, esa teoria se traduce en compresion, secuencia vertical y decisiones de prioridad mucho mas estrictas. El PDF sirve para verificar que el patron siga funcionando cuando el espacio obliga a simplificar, apilar y poner cada CTA dentro de un recorrido mas corto y tactil.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -1622,6 +1711,10 @@ Video narrado de la familia `Quiz page`. No es solo una demo visual: el audio ex
 **Para que sirve**
 
 Sirve para explicar el wireframe `Quiz page` y su funcion: quiz o survey funnel para calificar al usuario y dirigirlo a una recomendacion o resultado. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Teoria del archivo**
+
+La teoria de una quiz page es que la interaccion aumenta atencion, compromiso y sensacion de personalizacion. Cuando esta bien armada, cada respuesta no solo recoge datos: tambien segmenta, educa y prepara una recomendacion o CTA final con mas relevancia percibida. En formato video, esta teoria se vuelve especialmente util porque el asset no solo muestra layout: tambien suele explicar orden, prioridad, argumentos y criterio de conversion. Por eso conviene leerlo como fuente de logica antes que como simple demo visual.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -1694,6 +1787,10 @@ Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `Q
 
 Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
 
+**Teoria del archivo**
+
+La teoria de una quiz page es que la interaccion aumenta atencion, compromiso y sensacion de personalizacion. Cuando esta bien armada, cada respuesta no solo recoge datos: tambien segmenta, educa y prepara una recomendacion o CTA final con mas relevancia percibida. En su variante desktop, esa teoria se traduce en composicion horizontal, jerarquia visible en primer pantallazo y uso del ancho para ordenar informacion, prueba y CTAs sin perder escaneabilidad. El PDF sirve para verificar como se materializa el patron cuando hay mas superficie disponible y mas libertad de layout.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
@@ -1754,6 +1851,10 @@ Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Qu
 **Para que sirve**
 
 Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Teoria del archivo**
+
+La teoria de una quiz page es que la interaccion aumenta atencion, compromiso y sensacion de personalizacion. Cuando esta bien armada, cada respuesta no solo recoge datos: tambien segmenta, educa y prepara una recomendacion o CTA final con mas relevancia percibida. En su variante mobile, esa teoria se traduce en compresion, secuencia vertical y decisiones de prioridad mucho mas estrictas. El PDF sirve para verificar que el patron siga funcionando cuando el espacio obliga a simplificar, apilar y poner cada CTA dentro de un recorrido mas corto y tactil.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -1819,6 +1920,10 @@ Video narrado de la familia `Lead generation page`. No es solo una demo visual: 
 **Para que sirve**
 
 Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como landing de captura de datos para generar leads mediante formulario. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Teoria del archivo**
+
+La teoria de una lead generation page es el intercambio de valor: la persona entrega datos porque percibe un beneficio claro a cambio. La efectividad depende de que la promesa sea concreta, la friccion sea baja y el siguiente paso se sienta razonable para el nivel de interes del trafico. En formato video, esta teoria se vuelve especialmente util porque el asset no solo muestra layout: tambien suele explicar orden, prioridad, argumentos y criterio de conversion. Por eso conviene leerlo como fuente de logica antes que como simple demo visual.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -1899,6 +2004,10 @@ Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `L
 
 Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
 
+**Teoria del archivo**
+
+La teoria de una lead generation page es el intercambio de valor: la persona entrega datos porque percibe un beneficio claro a cambio. La efectividad depende de que la promesa sea concreta, la friccion sea baja y el siguiente paso se sienta razonable para el nivel de interes del trafico. En su variante desktop, esa teoria se traduce en composicion horizontal, jerarquia visible en primer pantallazo y uso del ancho para ordenar informacion, prueba y CTAs sin perder escaneabilidad. El PDF sirve para verificar como se materializa el patron cuando hay mas superficie disponible y mas libertad de layout.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
@@ -1943,6 +2052,10 @@ Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Le
 **Para que sirve**
 
 Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Teoria del archivo**
+
+La teoria de una lead generation page es el intercambio de valor: la persona entrega datos porque percibe un beneficio claro a cambio. La efectividad depende de que la promesa sea concreta, la friccion sea baja y el siguiente paso se sienta razonable para el nivel de interes del trafico. En su variante mobile, esa teoria se traduce en compresion, secuencia vertical y decisiones de prioridad mucho mas estrictas. El PDF sirve para verificar que el patron siga funcionando cuando el espacio obliga a simplificar, apilar y poner cada CTA dentro de un recorrido mas corto y tactil.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -1992,6 +2105,10 @@ Video narrado de la familia `Multistep lead generation page`. No es solo una dem
 **Para que sirve**
 
 Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como captura de leads en varios pasos para hacer mas liviano un formulario largo. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Teoria del archivo**
+
+La teoria de una multistep lead generation page es progresiva: dividir el esfuerzo en pasos reduce la carga percibida y mejora la predisposicion a completar el proceso. Cada pantalla tiene que confirmar avance, pedir solo lo necesario y mantener coherencia con la recompensa final. En formato video, esta teoria se vuelve especialmente util porque el asset no solo muestra layout: tambien suele explicar orden, prioridad, argumentos y criterio de conversion. Por eso conviene leerlo como fuente de logica antes que como simple demo visual.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -2074,6 +2191,10 @@ Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `M
 
 Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
 
+**Teoria del archivo**
+
+La teoria de una multistep lead generation page es progresiva: dividir el esfuerzo en pasos reduce la carga percibida y mejora la predisposicion a completar el proceso. Cada pantalla tiene que confirmar avance, pedir solo lo necesario y mantener coherencia con la recompensa final. En su variante desktop, esa teoria se traduce en composicion horizontal, jerarquia visible en primer pantallazo y uso del ancho para ordenar informacion, prueba y CTAs sin perder escaneabilidad. El PDF sirve para verificar como se materializa el patron cuando hay mas superficie disponible y mas libertad de layout.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
@@ -2118,6 +2239,10 @@ Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Mu
 **Para que sirve**
 
 Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Teoria del archivo**
+
+La teoria de una multistep lead generation page es progresiva: dividir el esfuerzo en pasos reduce la carga percibida y mejora la predisposicion a completar el proceso. Cada pantalla tiene que confirmar avance, pedir solo lo necesario y mantener coherencia con la recompensa final. En su variante mobile, esa teoria se traduce en compresion, secuencia vertical y decisiones de prioridad mucho mas estrictas. El PDF sirve para verificar que el patron siga funcionando cuando el espacio obliga a simplificar, apilar y poner cada CTA dentro de un recorrido mas corto y tactil.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -2167,6 +2292,10 @@ Video narrado de la familia `Opt-In pages`. No es solo una demo visual: el audio
 **Para que sirve**
 
 Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como captura simple de email o datos minimos, tanto en pagina como en modal. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Teoria del archivo**
+
+La teoria de una opt-in page es minimizacion radical: una promesa, una accion, una distraccion minima. Cuanto mas claro queda que el unico trabajo de la pantalla es capturar el dato o el registro, mas facil es sostener foco y conversion. En formato video, esta teoria se vuelve especialmente util porque el asset no solo muestra layout: tambien suele explicar orden, prioridad, argumentos y criterio de conversion. Por eso conviene leerlo como fuente de logica antes que como simple demo visual.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -2245,6 +2374,10 @@ Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `O
 
 Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
 
+**Teoria del archivo**
+
+La teoria de una opt-in page es minimizacion radical: una promesa, una accion, una distraccion minima. Cuanto mas claro queda que el unico trabajo de la pantalla es capturar el dato o el registro, mas facil es sostener foco y conversion. En su variante desktop, esa teoria se traduce en composicion horizontal, jerarquia visible en primer pantallazo y uso del ancho para ordenar informacion, prueba y CTAs sin perder escaneabilidad. El PDF sirve para verificar como se materializa el patron cuando hay mas superficie disponible y mas libertad de layout.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
@@ -2307,6 +2440,10 @@ Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Op
 
 Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
 
+**Teoria del archivo**
+
+La teoria de una opt-in page es minimizacion radical: una promesa, una accion, una distraccion minima. Cuanto mas claro queda que el unico trabajo de la pantalla es capturar el dato o el registro, mas facil es sostener foco y conversion. En su variante mobile, esa teoria se traduce en compresion, secuencia vertical y decisiones de prioridad mucho mas estrictas. El PDF sirve para verificar que el patron siga funcionando cuando el espacio obliga a simplificar, apilar y poner cada CTA dentro de un recorrido mas corto y tactil.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
@@ -2366,6 +2503,10 @@ Segun el nombre del archivo, esto es un mockup estatico desktop, variante modal 
 **Para que sirve**
 
 Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Teoria del archivo**
+
+La teoria de una opt-in page es minimizacion radical: una promesa, una accion, una distraccion minima. Cuanto mas claro queda que el unico trabajo de la pantalla es capturar el dato o el registro, mas facil es sostener foco y conversion. En su variante desktop, esa teoria se traduce en composicion horizontal, jerarquia visible en primer pantallazo y uso del ancho para ordenar informacion, prueba y CTAs sin perder escaneabilidad. El PDF sirve para verificar como se materializa el patron cuando hay mas superficie disponible y mas libertad de layout.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -2437,6 +2578,10 @@ Segun el nombre del archivo, esto es un mockup estatico mobile, variante modal d
 
 Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
 
+**Teoria del archivo**
+
+La teoria de una opt-in page es minimizacion radical: una promesa, una accion, una distraccion minima. Cuanto mas claro queda que el unico trabajo de la pantalla es capturar el dato o el registro, mas facil es sostener foco y conversion. En su variante mobile, esa teoria se traduce en compresion, secuencia vertical y decisiones de prioridad mucho mas estrictas. El PDF sirve para verificar que el patron siga funcionando cuando el espacio obliga a simplificar, apilar y poner cada CTA dentro de un recorrido mas corto y tactil.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
@@ -2507,6 +2652,10 @@ Video narrado de la familia `Top X page`. No es solo una demo visual: el audio e
 **Para que sirve**
 
 Sirve para mostrar una pagina de tipo pre-sell. Dentro del set, esta familia se usa como pagina comparativa o review page para contrastar una opcion contra otras y pre-vender una decision. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Teoria del archivo**
+
+La teoria de una Top X page es simplificar decision a traves de comparacion curada. El ranking ordena opciones, da marco de autoridad y reduce el costo mental de investigar desde cero, siempre que la jerarquia y los criterios de evaluacion se perciban claros. En formato video, esta teoria se vuelve especialmente util porque el asset no solo muestra layout: tambien suele explicar orden, prioridad, argumentos y criterio de conversion. Por eso conviene leerlo como fuente de logica antes que como simple demo visual.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -2583,6 +2732,10 @@ Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `T
 **Para que sirve**
 
 Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Teoria del archivo**
+
+La teoria de una Top X page es simplificar decision a traves de comparacion curada. El ranking ordena opciones, da marco de autoridad y reduce el costo mental de investigar desde cero, siempre que la jerarquia y los criterios de evaluacion se perciban claros. En su variante desktop, esa teoria se traduce en composicion horizontal, jerarquia visible en primer pantallazo y uso del ancho para ordenar informacion, prueba y CTAs sin perder escaneabilidad. El PDF sirve para verificar como se materializa el patron cuando hay mas superficie disponible y mas libertad de layout.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -2690,6 +2843,10 @@ Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `To
 
 Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
 
+**Teoria del archivo**
+
+La teoria de una Top X page es simplificar decision a traves de comparacion curada. El ranking ordena opciones, da marco de autoridad y reduce el costo mental de investigar desde cero, siempre que la jerarquia y los criterios de evaluacion se perciban claros. En su variante mobile, esa teoria se traduce en compresion, secuencia vertical y decisiones de prioridad mucho mas estrictas. El PDF sirve para verificar que el patron siga funcionando cuando el espacio obliga a simplificar, apilar y poner cada CTA dentro de un recorrido mas corto y tactil.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
@@ -2738,6 +2895,10 @@ Video narrado de la familia `VSL page`. No es solo una demo visual: el audio exp
 **Para que sirve**
 
 Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como video sales letter donde el video es el nucleo de la venta. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Teoria del archivo**
+
+La teoria de una VSL page es que el video actua como columna vertebral de la venta. La pagina existe para sostener reproduccion, reforzar el mensaje del video con pruebas o FAQs y facilitar que la accion ocurra en el momento de mayor convencimiento. En formato video, esta teoria se vuelve especialmente util porque el asset no solo muestra layout: tambien suele explicar orden, prioridad, argumentos y criterio de conversion. Por eso conviene leerlo como fuente de logica antes que como simple demo visual.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -2826,6 +2987,10 @@ Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `V
 
 Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
 
+**Teoria del archivo**
+
+La teoria de una VSL page es que el video actua como columna vertebral de la venta. La pagina existe para sostener reproduccion, reforzar el mensaje del video con pruebas o FAQs y facilitar que la accion ocurra en el momento de mayor convencimiento. En su variante desktop, esa teoria se traduce en composicion horizontal, jerarquia visible en primer pantallazo y uso del ancho para ordenar informacion, prueba y CTAs sin perder escaneabilidad. El PDF sirve para verificar como se materializa el patron cuando hay mas superficie disponible y mas libertad de layout.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
@@ -2870,6 +3035,10 @@ Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `VS
 **Para que sirve**
 
 Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Teoria del archivo**
+
+La teoria de una VSL page es que el video actua como columna vertebral de la venta. La pagina existe para sostener reproduccion, reforzar el mensaje del video con pruebas o FAQs y facilitar que la accion ocurra en el momento de mayor convencimiento. En su variante mobile, esa teoria se traduce en compresion, secuencia vertical y decisiones de prioridad mucho mas estrictas. El PDF sirve para verificar que el patron siga funcionando cuando el espacio obliga a simplificar, apilar y poner cada CTA dentro de un recorrido mas corto y tactil.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -2919,6 +3088,10 @@ Video narrado de la familia `Webinar`. No es solo una demo visual: el audio expl
 **Para que sirve**
 
 Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como pagina de registro a webinar o evento guiado. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Teoria del archivo**
+
+La teoria de una webinar page es convertir autoridad y expectativa temporal en accion. Sea para registro o asistencia, la estructura debe justificar por que vale la pena reservar tiempo, que transformacion promete la sesion y por que conviene no postergarla. En formato video, esta teoria se vuelve especialmente util porque el asset no solo muestra layout: tambien suele explicar orden, prioridad, argumentos y criterio de conversion. Por eso conviene leerlo como fuente de logica antes que como simple demo visual.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -3003,6 +3176,10 @@ Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `W
 
 Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
 
+**Teoria del archivo**
+
+La teoria de una webinar page es convertir autoridad y expectativa temporal en accion. Sea para registro o asistencia, la estructura debe justificar por que vale la pena reservar tiempo, que transformacion promete la sesion y por que conviene no postergarla. En su variante desktop, esa teoria se traduce en composicion horizontal, jerarquia visible en primer pantallazo y uso del ancho para ordenar informacion, prueba y CTAs sin perder escaneabilidad. El PDF sirve para verificar como se materializa el patron cuando hay mas superficie disponible y mas libertad de layout.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
@@ -3066,6 +3243,10 @@ Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `We
 **Para que sirve**
 
 Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Teoria del archivo**
+
+La teoria de una webinar page es convertir autoridad y expectativa temporal en accion. Sea para registro o asistencia, la estructura debe justificar por que vale la pena reservar tiempo, que transformacion promete la sesion y por que conviene no postergarla. En su variante mobile, esa teoria se traduce en compresion, secuencia vertical y decisiones de prioridad mucho mas estrictas. El PDF sirve para verificar que el patron siga funcionando cuando el espacio obliga a simplificar, apilar y poner cada CTA dentro de un recorrido mas corto y tactil.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -3134,6 +3315,10 @@ Video narrado de la familia `SaaS`. No es solo una demo visual: el audio explica
 **Para que sirve**
 
 Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como landing o homepage para producto SaaS. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Teoria del archivo**
+
+La teoria de una pagina SaaS es traducir complejidad de producto en claridad de adopcion. Tiene que conectar problema, caso de uso, evidencia, funcionamiento y CTA de prueba o demo sin abrumar con tecnicismo ni dejar dudas sobre el valor recurrente. En formato video, esta teoria se vuelve especialmente util porque el asset no solo muestra layout: tambien suele explicar orden, prioridad, argumentos y criterio de conversion. Por eso conviene leerlo como fuente de logica antes que como simple demo visual.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -3210,6 +3395,10 @@ Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `S
 
 Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
 
+**Teoria del archivo**
+
+La teoria de una pagina SaaS es traducir complejidad de producto en claridad de adopcion. Tiene que conectar problema, caso de uso, evidencia, funcionamiento y CTA de prueba o demo sin abrumar con tecnicismo ni dejar dudas sobre el valor recurrente. En su variante desktop, esa teoria se traduce en composicion horizontal, jerarquia visible en primer pantallazo y uso del ancho para ordenar informacion, prueba y CTAs sin perder escaneabilidad. El PDF sirve para verificar como se materializa el patron cuando hay mas superficie disponible y mas libertad de layout.
+
 **Como se aplica este archivo y que resultados da**
 
 Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
@@ -3260,6 +3449,10 @@ Segun el nombre del archivo, esto es un mockup estatico mobile de la familia `Sa
 **Para que sirve**
 
 Sirve para ver como la misma estructura baja a mobile: orden de apilado, simplificacion de modulos y prioridad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Teoria del archivo**
+
+La teoria de una pagina SaaS es traducir complejidad de producto en claridad de adopcion. Tiene que conectar problema, caso de uso, evidencia, funcionamiento y CTA de prueba o demo sin abrumar con tecnicismo ni dejar dudas sobre el valor recurrente. En su variante mobile, esa teoria se traduce en compresion, secuencia vertical y decisiones de prioridad mucho mas estrictas. El PDF sirve para verificar que el patron siga funcionando cuando el espacio obliga a simplificar, apilar y poner cada CTA dentro de un recorrido mas corto y tactil.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -3315,6 +3508,10 @@ Video narrado de la familia `Service`. No es solo una demo visual: el audio expl
 **Para que sirve**
 
 Sirve para explicar una pagina orientada a captura/conversion. Dentro del set, esta familia se usa como landing de servicio o agencia para explicar oferta y llevar a consulta o discovery call. Leido junto con los archivos hermanos de la misma familia, este video funciona como una guia de interpretacion: ayuda a entender por que aparecen ciertos bloques, en que secuencia conviene presentarlos y que rol cumplen dentro del recorrido de conversion.
+
+**Teoria del archivo**
+
+La teoria de una service page se apoya en confianza, autoridad y claridad de proceso. Como el servicio es menos tangible que un producto fisico, la pagina debe volver visibles los resultados, la metodologia, la credibilidad del equipo y el camino para iniciar contacto. En formato video, esta teoria se vuelve especialmente util porque el asset no solo muestra layout: tambien suele explicar orden, prioridad, argumentos y criterio de conversion. Por eso conviene leerlo como fuente de logica antes que como simple demo visual.
 
 **Como se aplica este archivo y que resultados da**
 
@@ -3395,6 +3592,10 @@ Segun el nombre del archivo, esto es un mockup estatico desktop de la familia `S
 **Para que sirve**
 
 Sirve para ver la composicion completa de la version desktop: jerarquia de bloques, orden de secciones y densidad visual. Dentro del set, su valor principal es servir como referencia visual concreta para aterrizar en layout una idea que en los videos suele aparecer explicada de forma mas conceptual o narrativa.
+
+**Teoria del archivo**
+
+La teoria de una service page se apoya en confianza, autoridad y claridad de proceso. Como el servicio es menos tangible que un producto fisico, la pagina debe volver visibles los resultados, la metodologia, la credibilidad del equipo y el camino para iniciar contacto. En su variante desktop, esa teoria se traduce en composicion horizontal, jerarquia visible en primer pantallazo y uso del ancho para ordenar informacion, prueba y CTAs sin perder escaneabilidad. El PDF sirve para verificar como se materializa el patron cuando hay mas superficie disponible y mas libertad de layout.
 
 **Como se aplica este archivo y que resultados da**
 
