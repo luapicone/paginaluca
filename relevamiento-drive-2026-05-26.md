@@ -102,19 +102,19 @@ La teoria de una homepage de conversion es que no existe solo para presentar una
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+Se aplica leyendolo como criterio de implementacion y de QA. Primero ordena la logica de la pagina, despues permite contrastarla con los wireframes y finalmente ayuda a validar si la version real conserva prioridad, secuencia y objetivo de conversion. El resultado es una lectura mas util para decidir que respetar, que simplificar y que no deberia perderse al ejecutar.
 
 **Como implementar este archivo**
 
-Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+Se implementa tomando el video como criterio funcional rector. La secuencia correcta es extraer objetivo, ordenar modulos segun la narracion y recien despues traducir esa logica a componentes reales. El asset no debe usarse como inspiracion suelta, sino como regla de prioridades: apertura, confianza, profundizacion y accion. Una buena implementacion conserva esa secuencia y evita sumar bloques que distraigan o rompan el recorrido principal.
 
 **Checklist final de implementacion**
 
-- El orden de modulos implementado coincide con la secuencia que explica la narracion.
-- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
-- La pagina conserva el objetivo de conversion central del asset.
-- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
-- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
+- El orden de modulos sigue la secuencia explicada en la narracion.
+- El primer pantallazo resuelve propuesta de valor, confianza y CTA principal.
+- La pagina mantiene el objetivo de conversion del asset.
+- Desktop y mobile conservan la misma logica funcional.
+- La version final fue validada otra vez contra el video.
 
 **Que se puede verificar dentro del archivo**
 
@@ -213,19 +213,19 @@ La teoria de una product page es que funciona como un vendedor digital en una so
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+Se aplica leyendolo como criterio de implementacion y de QA. Primero ordena la logica de la pagina, despues permite contrastarla con los wireframes y finalmente ayuda a validar si la version real conserva prioridad, secuencia y objetivo de conversion. El resultado es una lectura mas util para decidir que respetar, que simplificar y que no deberia perderse al ejecutar.
 
 **Como implementar este archivo**
 
-Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+Se implementa tomando el video como criterio funcional rector. La secuencia correcta es extraer objetivo, ordenar modulos segun la narracion y recien despues traducir esa logica a componentes reales. El asset no debe usarse como inspiracion suelta, sino como regla de prioridades: apertura, confianza, profundizacion y accion. Una buena implementacion conserva esa secuencia y evita sumar bloques que distraigan o rompan el recorrido principal.
 
 **Checklist final de implementacion**
 
-- El orden de modulos implementado coincide con la secuencia que explica la narracion.
-- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
-- La pagina conserva el objetivo de conversion central del asset.
-- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
-- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
+- El orden de modulos sigue la secuencia explicada en la narracion.
+- El primer pantallazo resuelve propuesta de valor, confianza y CTA principal.
+- La pagina mantiene el objetivo de conversion del asset.
+- Desktop y mobile conservan la misma logica funcional.
+- La version final fue validada otra vez contra el video.
 
 **Que se puede verificar dentro del archivo**
 
@@ -239,7 +239,7 @@ Este apartado deja explicitamente fuera cualquier lectura funcional no respaldad
 - Right hand side, we start with our social proof.
 - This is a really good way to kind of in a neat format.
 - So this is a great chance for you to compare your brand against other competitors or broad market equivalents.
-- So this again, be careful when you have multiple skews, you might not be able to go as in depth as I'm going to go in this video because obviously, you know, if you are saying benefits of specific products, you've got thousands of going to take you literally hours, days, months to do this.
+- So this again, be careful when you have multiple SKUs, you might not be able to go as in depth as I'm going to go in this video because obviously, you know, if you are saying benefits of specific products, you've got thousands of going to take you literally hours, days, months to do this.
 
 **Extracto util del archivo**
 
@@ -247,7 +247,7 @@ Este apartado deja explicitamente fuera cualquier lectura funcional no respaldad
 Okay, so the product page wireframe and I want to start by saying that every section
 I'm about to show you as far as the kind of ideal framework and wireframe for a product
 product page should be dynamic based on your store. So if you have a store with multiple
-skews, let's say thousands of skews, I do not expect each and every one of these sections to
+SKUs, let's say thousands of SKUs, I do not expect each and every one of these sections to
 be unique per product page. What you need to do is make a decision on what parts can be unique
 and what can be broad across your store but try and get as many of these sections following this
 framework in as possible across all of your products. Again, I'll show you how these can kind of be
@@ -295,19 +295,19 @@ La teoria de una product page es que funciona como un vendedor digital en una so
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -350,19 +350,19 @@ La teoria de una product page es que funciona como un vendedor digital en una so
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -409,19 +409,19 @@ La teoria de una collection page es intermedia: no vende solo una marca ni cierr
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+Se aplica leyendolo como criterio de implementacion y de QA. Primero ordena la logica de la pagina, despues permite contrastarla con los wireframes y finalmente ayuda a validar si la version real conserva prioridad, secuencia y objetivo de conversion. El resultado es una lectura mas util para decidir que respetar, que simplificar y que no deberia perderse al ejecutar.
 
 **Como implementar este archivo**
 
-Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+Se implementa tomando el video como criterio funcional rector. La secuencia correcta es extraer objetivo, ordenar modulos segun la narracion y recien despues traducir esa logica a componentes reales. El asset no debe usarse como inspiracion suelta, sino como regla de prioridades: apertura, confianza, profundizacion y accion. Una buena implementacion conserva esa secuencia y evita sumar bloques que distraigan o rompan el recorrido principal.
 
 **Checklist final de implementacion**
 
-- El orden de modulos implementado coincide con la secuencia que explica la narracion.
-- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
-- La pagina conserva el objetivo de conversion central del asset.
-- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
-- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
+- El orden de modulos sigue la secuencia explicada en la narracion.
+- El primer pantallazo resuelve propuesta de valor, confianza y CTA principal.
+- La pagina mantiene el objetivo de conversion del asset.
+- Desktop y mobile conservan la misma logica funcional.
+- La version final fue validada otra vez contra el video.
 
 **Que se puede verificar dentro del archivo**
 
@@ -433,7 +433,7 @@ Este apartado deja explicitamente fuera cualquier lectura funcional no respaldad
 - Collection pages are so important for your stores, or for your websites, and it's a right and wrong way to do them.
 - Okay, having as many products within that fold, above the fold as possible.
 - Have a social proof, so a lot of people don't do this.
-- Now, if you have a product store that has multiple skews and most importantly, has a lot of repeat purchases, maybe it's a consumable product, for example, definitely AB test having quick ad decarts on collection pages.
+- Now, if you have a product store that has multiple SKUs and most importantly, has a lot of repeat purchases, maybe it's a consumable product, for example, definitely AB test having quick add-to-carts on collection pages.
 - When it comes to mobile, use a two by two ratio.
 - Okay, so let's talk about collection pages.
 
@@ -495,10 +495,10 @@ and just use them sparingly, but use them.
 Don't have them on every single product.
 It just takes away that whole kind of scarcity and foamoe effect.
 So don't use them all the time.
-Now, if you have a product store that has multiple skews
+Now, if you have a product store that has multiple SKUs
 and most importantly, has a lot of repeat purchases,
 maybe it's a consumable product, for example,
-definitely AB test having quick ad decarts on collection pages.
+definitely AB test having quick add-to-carts on collection pages.
 We've used these 
 ```
 
@@ -523,19 +523,19 @@ La teoria de una collection page es intermedia: no vende solo una marca ni cierr
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -593,19 +593,19 @@ La teoria de una collection page es intermedia: no vende solo una marca ni cierr
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -679,19 +679,19 @@ La teoria del cart draw es microconversion pura: mostrar progreso de compra sin 
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+Se aplica leyendolo como criterio de implementacion y de QA. Primero ordena la logica de la pagina, despues permite contrastarla con los wireframes y finalmente ayuda a validar si la version real conserva prioridad, secuencia y objetivo de conversion. El resultado es una lectura mas util para decidir que respetar, que simplificar y que no deberia perderse al ejecutar.
 
 **Como implementar este archivo**
 
-Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+Se implementa tomando el video como criterio funcional rector. La secuencia correcta es extraer objetivo, ordenar modulos segun la narracion y recien despues traducir esa logica a componentes reales. El asset no debe usarse como inspiracion suelta, sino como regla de prioridades: apertura, confianza, profundizacion y accion. Una buena implementacion conserva esa secuencia y evita sumar bloques que distraigan o rompan el recorrido principal.
 
 **Checklist final de implementacion**
 
-- El orden de modulos implementado coincide con la secuencia que explica la narracion.
-- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
-- La pagina conserva el objetivo de conversion central del asset.
-- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
-- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
+- El orden de modulos sigue la secuencia explicada en la narracion.
+- El primer pantallazo resuelve propuesta de valor, confianza y CTA principal.
+- La pagina mantiene el objetivo de conversion del asset.
+- Desktop y mobile conservan la misma logica funcional.
+- La version final fue validada otra vez contra el video.
 
 **Que se puede verificar dentro del archivo**
 
@@ -791,19 +791,19 @@ La teoria del cart draw es microconversion pura: mostrar progreso de compra sin 
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -853,19 +853,19 @@ La teoria del cart draw es microconversion pura: mostrar progreso de compra sin 
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -930,19 +930,19 @@ La teoria del cart draw es microconversion pura: mostrar progreso de compra sin 
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -991,19 +991,19 @@ La teoria del cart draw es microconversion pura: mostrar progreso de compra sin 
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1076,19 +1076,19 @@ La teoria de una sales page es la persuasion secuencial. La pagina se construye 
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+Se aplica leyendolo como criterio de implementacion y de QA. Primero ordena la logica de la pagina, despues permite contrastarla con los wireframes y finalmente ayuda a validar si la version real conserva prioridad, secuencia y objetivo de conversion. El resultado es una lectura mas util para decidir que respetar, que simplificar y que no deberia perderse al ejecutar.
 
 **Como implementar este archivo**
 
-Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+Se implementa tomando el video como criterio funcional rector. La secuencia correcta es extraer objetivo, ordenar modulos segun la narracion y recien despues traducir esa logica a componentes reales. El asset no debe usarse como inspiracion suelta, sino como regla de prioridades: apertura, confianza, profundizacion y accion. Una buena implementacion conserva esa secuencia y evita sumar bloques que distraigan o rompan el recorrido principal.
 
 **Checklist final de implementacion**
 
-- El orden de modulos implementado coincide con la secuencia que explica la narracion.
-- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
-- La pagina conserva el objetivo de conversion central del asset.
-- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
-- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
+- El orden de modulos sigue la secuencia explicada en la narracion.
+- El primer pantallazo resuelve propuesta de valor, confianza y CTA principal.
+- La pagina mantiene el objetivo de conversion del asset.
+- Desktop y mobile conservan la misma logica funcional.
+- La version final fue validada otra vez contra el video.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1161,19 +1161,19 @@ La teoria de una sales page es la persuasion secuencial. La pagina se construye 
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1216,19 +1216,19 @@ La teoria de una sales page es la persuasion secuencial. La pagina se construye 
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1275,19 +1275,19 @@ La teoria de una listicle page es usar una estructura editorial familiar para ve
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+Se aplica leyendolo como criterio de implementacion y de QA. Primero ordena la logica de la pagina, despues permite contrastarla con los wireframes y finalmente ayuda a validar si la version real conserva prioridad, secuencia y objetivo de conversion. El resultado es una lectura mas util para decidir que respetar, que simplificar y que no deberia perderse al ejecutar.
 
 **Como implementar este archivo**
 
-Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+Se implementa tomando el video como criterio funcional rector. La secuencia correcta es extraer objetivo, ordenar modulos segun la narracion y recien despues traducir esa logica a componentes reales. El asset no debe usarse como inspiracion suelta, sino como regla de prioridades: apertura, confianza, profundizacion y accion. Una buena implementacion conserva esa secuencia y evita sumar bloques que distraigan o rompan el recorrido principal.
 
 **Checklist final de implementacion**
 
-- El orden de modulos implementado coincide con la secuencia que explica la narracion.
-- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
-- La pagina conserva el objetivo de conversion central del asset.
-- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
-- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
+- El orden de modulos sigue la secuencia explicada en la narracion.
+- El primer pantallazo resuelve propuesta de valor, confianza y CTA principal.
+- La pagina mantiene el objetivo de conversion del asset.
+- Desktop y mobile conservan la misma logica funcional.
+- La version final fue validada otra vez contra el video.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1300,13 +1300,13 @@ Este apartado deja explicitamente fuera cualquier lectura funcional no respaldad
 - If you have any trust and credibility as far as publications you've been featured in as a product, then put them here and you can say things like as recommended by, but essentially above the fold, we need at least our first list item.
 - And every now and again, you can interject some social proof, so just having a physical testimony or review within the list, don't kind of disrupt the flow of the page.
 - Yes, you can include a call to action that just goes through to your product page.
-- Okay, the listicle, another form of pre-cell, so effectively, again, what this page is doing is it's pre-selling someone, it's warming someone up before they actually then go and take action and purchase your product.
+- Okay, the listicle, another form of pre-sell, so effectively, again, what this page is doing is it's pre-selling someone, it's warming someone up before they actually then go and take action and purchase your product.
 - It kind of serves as a middle step ad-plaked, going to the listicle, then to your product page or sales page or sometimes straight through to your car or checkout.
 
 **Extracto util del archivo**
 
 ```text
-Okay, the listicle, another form of pre-cell,
+Okay, the listicle, another form of pre-sell,
 so effectively, again, what this page is doing
 is it's pre-selling someone,
 it's warming someone up before they actually then
@@ -1386,19 +1386,19 @@ La teoria de una listicle page es usar una estructura editorial familiar para ve
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1458,19 +1458,19 @@ La teoria de una listicle page es usar una estructura editorial familiar para ve
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1534,19 +1534,19 @@ La teoria del advertorial es hibrida: combina codigos de articulo editorial con 
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+Se aplica leyendolo como criterio de implementacion y de QA. Primero ordena la logica de la pagina, despues permite contrastarla con los wireframes y finalmente ayuda a validar si la version real conserva prioridad, secuencia y objetivo de conversion. El resultado es una lectura mas util para decidir que respetar, que simplificar y que no deberia perderse al ejecutar.
 
 **Como implementar este archivo**
 
-Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+Se implementa tomando el video como criterio funcional rector. La secuencia correcta es extraer objetivo, ordenar modulos segun la narracion y recien despues traducir esa logica a componentes reales. El asset no debe usarse como inspiracion suelta, sino como regla de prioridades: apertura, confianza, profundizacion y accion. Una buena implementacion conserva esa secuencia y evita sumar bloques que distraigan o rompan el recorrido principal.
 
 **Checklist final de implementacion**
 
-- El orden de modulos implementado coincide con la secuencia que explica la narracion.
-- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
-- La pagina conserva el objetivo de conversion central del asset.
-- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
-- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
+- El orden de modulos sigue la secuencia explicada en la narracion.
+- El primer pantallazo resuelve propuesta de valor, confianza y CTA principal.
+- La pagina mantiene el objetivo de conversion del asset.
+- Desktop y mobile conservan la misma logica funcional.
+- La version final fue validada otra vez contra el video.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1555,28 +1555,28 @@ Este apartado deja explicitamente fuera cualquier lectura funcional no respaldad
 - Duracion real detectada: `376.4 s`.
 - Idioma detectado en la narracion: `en`.
 - Segmentos transcritos: `68`.
-- One thing's really important, never, ever, ever, unlike other pages and sales pages, have your cool to action above the fold.
+- One thing's really important, never, ever, ever, unlike other pages and sales pages, have your call to action above the fold.
 - You need a toolbar up here or somewhere above the fold that says states, this is an avatar, really important for them to plan to see on paid ads.
 - More social proof, and then at the bottom, most importantly, a call to action.
-- Now I'll start to peak my interest in this section, you'll notice we don't have a call to action until here.
+- Now I'll start to pique my interest in this section, you'll notice we don't have a call to action until here.
 - So they need, you know, long-form copy that helps inform a consumer exactly of the product and the benefits of the product.
-- So you drive media from the ad or from an email or wherever it may be to the advertorial and it gives you a chance to pre-cell and somewhat educate your code consumers on your product before you send them to a sales page or a sign-up page or a lead-gem page.
+- So you drive media from the ad or from an email or wherever it may be to the advertorial and it gives you a chance to pre-sell and somewhat educate your core consumers on your product before you send them to a sales page or a sign-up page or a leadgen page.
 
 **Extracto util del archivo**
 
 ```text
 Okay, so let's have a look at our advertorial wireframe and traditionally
-advertorials sit as a pre-cell. They help you pre-cell your offer, your product, your course,
+advertorials sit as a pre-sell. They help you pre-sell your offer, your product, your course,
 whatever it may be that comes after this initial page. So they sit in between the ad and the sales page.
 So you drive media from the ad or from an email or wherever it may be to the advertorial
-and it gives you a chance to pre-cell and somewhat educate your code consumers on your product
-before you send them to a sales page or a sign-up page or a lead-gem page. Typically these are used
+and it gives you a chance to pre-sell and somewhat educate your core consumers on your product
+before you send them to a sales page or a sign-up page or a leadgen page. Typically these are used
 for products that need a little bit more education around them. So they need, you know,
 long-form copy that helps inform a consumer exactly of the product and the benefits of the product.
 Traditionally, and typically these are written by third party. So let's say for example,
-you're selling the conversion-vitt multi-vittamin-pill. This wouldn't sit on conversion-vitt-multi-vittamin.com.
-This would sit on multi-vittaminreviews.com, you know, a middle party that would then
-pre-cell in a native organic way that the click through to the product. So a few things to note,
+you're selling the conversion-vitt multi-vitamin-pill. This wouldn't sit on conversion-vitt-multi-vitamin.com.
+This would sit on multi-vitaminreviews.com, you know, a middle-party site that would then
+pre-sell in a native organic way that the click through to the product. So a few things to note,
 you need to make these look as native as possible. So they're almost blog formats.
 So you have your website logo or name up here. These could be links but what I would do is a
 little bit of a trick. If people click the link either scroll to a section within the page
@@ -1591,7 +1591,7 @@ advertiser and pre-sells is not making them authentic or as organic as possible.
 just, you know, make sure that it's a real person who's written this article and it puts a bit of
 belief behind the article. When it comes to the page layout, it sells, I'm not going to go into
 too much detail because I would play around with things. One thing's really important, never, ever,
-ever, unlike other pages and sales pages, have your cool to action above the fold. Okay? We actually
+ever, unlike other pages and sales pages, have your call to action above the fold. Okay? We actually
 want this quite far down the pag
 ```
 
@@ -1616,19 +1616,19 @@ La teoria del advertorial es hibrida: combina codigos de articulo editorial con 
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1665,19 +1665,19 @@ La teoria del advertorial es hibrida: combina codigos de articulo editorial con 
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1718,19 +1718,19 @@ La teoria de una quiz page es que la interaccion aumenta atencion, compromiso y 
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+Se aplica leyendolo como criterio de implementacion y de QA. Primero ordena la logica de la pagina, despues permite contrastarla con los wireframes y finalmente ayuda a validar si la version real conserva prioridad, secuencia y objetivo de conversion. El resultado es una lectura mas util para decidir que respetar, que simplificar y que no deberia perderse al ejecutar.
 
 **Como implementar este archivo**
 
-Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+Se implementa tomando el video como criterio funcional rector. La secuencia correcta es extraer objetivo, ordenar modulos segun la narracion y recien despues traducir esa logica a componentes reales. El asset no debe usarse como inspiracion suelta, sino como regla de prioridades: apertura, confianza, profundizacion y accion. Una buena implementacion conserva esa secuencia y evita sumar bloques que distraigan o rompan el recorrido principal.
 
 **Checklist final de implementacion**
 
-- El orden de modulos implementado coincide con la secuencia que explica la narracion.
-- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
-- La pagina conserva el objetivo de conversion central del asset.
-- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
-- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
+- El orden de modulos sigue la secuencia explicada en la narracion.
+- El primer pantallazo resuelve propuesta de valor, confianza y CTA principal.
+- La pagina mantiene el objetivo de conversion del asset.
+- Desktop y mobile conservan la misma logica funcional.
+- La version final fue validada otra vez contra el video.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1793,19 +1793,19 @@ La teoria de una quiz page es que la interaccion aumenta atencion, compromiso y 
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1858,19 +1858,19 @@ La teoria de una quiz page es que la interaccion aumenta atencion, compromiso y 
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1927,19 +1927,19 @@ La teoria de una lead generation page es el intercambio de valor: la persona ent
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+Se aplica leyendolo como criterio de implementacion y de QA. Primero ordena la logica de la pagina, despues permite contrastarla con los wireframes y finalmente ayuda a validar si la version real conserva prioridad, secuencia y objetivo de conversion. El resultado es una lectura mas util para decidir que respetar, que simplificar y que no deberia perderse al ejecutar.
 
 **Como implementar este archivo**
 
-Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+Se implementa tomando el video como criterio funcional rector. La secuencia correcta es extraer objetivo, ordenar modulos segun la narracion y recien despues traducir esa logica a componentes reales. El asset no debe usarse como inspiracion suelta, sino como regla de prioridades: apertura, confianza, profundizacion y accion. Una buena implementacion conserva esa secuencia y evita sumar bloques que distraigan o rompan el recorrido principal.
 
 **Checklist final de implementacion**
 
-- El orden de modulos implementado coincide con la secuencia que explica la narracion.
-- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
-- La pagina conserva el objetivo de conversion central del asset.
-- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
-- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
+- El orden de modulos sigue la secuencia explicada en la narracion.
+- El primer pantallazo resuelve propuesta de valor, confianza y CTA principal.
+- La pagina mantiene el objetivo de conversion del asset.
+- Desktop y mobile conservan la misma logica funcional.
+- La version final fue validada otra vez contra el video.
 
 **Que se puede verificar dentro del archivo**
 
@@ -1948,35 +1948,35 @@ Este apartado deja explicitamente fuera cualquier lectura funcional no respaldad
 - Duracion real detectada: `324.5 s`.
 - Idioma detectado en la narracion: `en`.
 - Segmentos transcritos: `74`.
-- Okay, the Legion wire frame and again we've kind of covered this in the design module I've been through forms etc so I'm not gonna touch on it too much and more gonna touch on kind of the layout and and how I would have this kind of all I'm folding so again above the fold is really important let's cut this off here and
+- Okay, the leadgen wire frame and again we've kind of covered this in the design module I've been through forms etc so I'm not gonna touch on it too much and more gonna touch on kind of the layout and and how I would have this kind of all I'm folding so again above the fold is really important let's cut this off here and
 
 **Extracto util del archivo**
 
 ```text
-Okay, the Legion wire frame and again we've kind of covered this in the design module
+Okay, the leadgen wire frame and again we've kind of covered this in the design module
 I've been through forms etc so I'm not gonna touch on it too much and more
 gonna touch on kind of the layout and and how I would have this kind of all I'm
 folding so again above the fold is really important let's cut this off here and
-let's say this is the above the fold on our desktop on Legion company logo here
+let's say this is the above the fold on our desktop on leadgen company logo here
 I wouldn't have any internal links if if you do have links in your navigation just
 link them to sections on the page anything else as a distraction we've done this
 here to showcase some form of social proof and trust so whether that's like SSL
 security whether that's an award you've won something or some little icons and
 logos that symbolize okay I can trust these guys and I can therefore give them my
-information on the form cool to action if needs be which again we just scroll to your
-form and then our famous trust policy bar so when it comes to Legion what can we
+information on the form call to action if needs be which again we just scroll to your
+form and then our famous trust policy bar so when it comes to leadgen what can we
 add here we've helped x amount of cases we we keep all your information safe and
 secure social proof whatever it may be that makes you a trusted and
 credible company use icons use text and have that kind of policy bar across the
 top looking at the left hand side I would always typically lay out like this
 left and right split always have your as you look at your website always have
 your form on the right hand side but this focus on this left hand side social proof
-something that doesn't get used enough when it comes to Legion generation so you
+something that doesn't get used enough when it comes to leadgen generation so you
 know 4.8 out of 5 stars by a thousand plus happy customers a thousand plus
 fathers who secure their families life ensure it's whatever that may be
 get a motive with it okay we then have that value driven benefit which again
 we've kind of taught you in previous lessons a little bit of context here it's
-good to have a paragraph of text when it comes to Legion because often it
+good to have a paragraph of text when it comes to leadgen because often it
 needs a bit more of an explanation back it up with some scanable benefit
 driven bullet points have a physical test ammonia you know have a have a
 review of someone who's been through the process and saying how seamless it is
@@ -2010,19 +2010,19 @@ La teoria de una lead generation page es el intercambio de valor: la persona ent
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2059,19 +2059,19 @@ La teoria de una lead generation page es el intercambio de valor: la persona ent
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2112,19 +2112,19 @@ La teoria de una multistep lead generation page es progresiva: dividir el esfuer
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+Se aplica leyendolo como criterio de implementacion y de QA. Primero ordena la logica de la pagina, despues permite contrastarla con los wireframes y finalmente ayuda a validar si la version real conserva prioridad, secuencia y objetivo de conversion. El resultado es una lectura mas util para decidir que respetar, que simplificar y que no deberia perderse al ejecutar.
 
 **Como implementar este archivo**
 
-Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+Se implementa tomando el video como criterio funcional rector. La secuencia correcta es extraer objetivo, ordenar modulos segun la narracion y recien despues traducir esa logica a componentes reales. El asset no debe usarse como inspiracion suelta, sino como regla de prioridades: apertura, confianza, profundizacion y accion. Una buena implementacion conserva esa secuencia y evita sumar bloques que distraigan o rompan el recorrido principal.
 
 **Checklist final de implementacion**
 
-- El orden de modulos implementado coincide con la secuencia que explica la narracion.
-- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
-- La pagina conserva el objetivo de conversion central del asset.
-- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
-- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
+- El orden de modulos sigue la secuencia explicada en la narracion.
+- El primer pantallazo resuelve propuesta de valor, confianza y CTA principal.
+- La pagina mantiene el objetivo de conversion del asset.
+- Desktop y mobile conservan la misma logica funcional.
+- La version final fue validada otra vez contra el video.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2197,19 +2197,19 @@ La teoria de una multistep lead generation page es progresiva: dividir el esfuer
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2246,19 +2246,19 @@ La teoria de una multistep lead generation page es progresiva: dividir el esfuer
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2299,19 +2299,19 @@ La teoria de una opt-in page es minimizacion radical: una promesa, una accion, u
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+Se aplica leyendolo como criterio de implementacion y de QA. Primero ordena la logica de la pagina, despues permite contrastarla con los wireframes y finalmente ayuda a validar si la version real conserva prioridad, secuencia y objetivo de conversion. El resultado es una lectura mas util para decidir que respetar, que simplificar y que no deberia perderse al ejecutar.
 
 **Como implementar este archivo**
 
-Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+Se implementa tomando el video como criterio funcional rector. La secuencia correcta es extraer objetivo, ordenar modulos segun la narracion y recien despues traducir esa logica a componentes reales. El asset no debe usarse como inspiracion suelta, sino como regla de prioridades: apertura, confianza, profundizacion y accion. Una buena implementacion conserva esa secuencia y evita sumar bloques que distraigan o rompan el recorrido principal.
 
 **Checklist final de implementacion**
 
-- El orden de modulos implementado coincide con la secuencia que explica la narracion.
-- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
-- La pagina conserva el objetivo de conversion central del asset.
-- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
-- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
+- El orden de modulos sigue la secuencia explicada en la narracion.
+- El primer pantallazo resuelve propuesta de valor, confianza y CTA principal.
+- La pagina mantiene el objetivo de conversion del asset.
+- Desktop y mobile conservan la misma logica funcional.
+- La version final fue validada otra vez contra el video.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2324,7 +2324,7 @@ Este apartado deja explicitamente fuera cualquier lectura funcional no respaldad
 - This is really important when it comes into opt-in.
 - Now we've tested all different types sorts of opt-in pages, long form, short form above the fold.
 - Always always showcase your social proof.
-- Okay, we just want one clear to call to action.
+- Okay, we just want one clear call to action.
 - The more questions you ask, the more information you ask from a code click, the less people are going to fill in these pages.
 
 **Extracto util del archivo**
@@ -2350,7 +2350,7 @@ these and keep it between 3 and 5, 3 probably converts better and make it scanab
 bold some key phrases within there. Just mention again the benefits or the outcome of opt-in.
 If it's a course free course, let's say it's a you know learn to master CRO today
 over 100 success stories, getting side 20 incredible case studies. So mention those benefits.
-One clear call to action. Okay, we just want one clear to call to action. Explains what happens next.
+One clear call to action. Okay, we just want one clear call to action. Explains what happens next.
 This is really important when it comes into opt-in. Explains the next step. Okay, so is it
 get access now? Unlock instant access. Download course now. Get first email now. Whatever it may be,
 explain that exact step on the CTA. Make sure it's spanned for which to make sure it's a big button.
@@ -2380,19 +2380,19 @@ La teoria de una opt-in page es minimizacion radical: una promesa, una accion, u
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2446,19 +2446,19 @@ La teoria de una opt-in page es minimizacion radical: una promesa, una accion, u
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2510,19 +2510,19 @@ La teoria de una opt-in page es minimizacion radical: una promesa, una accion, u
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2584,19 +2584,19 @@ La teoria de una opt-in page es minimizacion radical: una promesa, una accion, u
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2659,19 +2659,19 @@ La teoria de una Top X page es simplificar decision a traves de comparacion cura
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+Se aplica leyendolo como criterio de implementacion y de QA. Primero ordena la logica de la pagina, despues permite contrastarla con los wireframes y finalmente ayuda a validar si la version real conserva prioridad, secuencia y objetivo de conversion. El resultado es una lectura mas util para decidir que respetar, que simplificar y que no deberia perderse al ejecutar.
 
 **Como implementar este archivo**
 
-Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+Se implementa tomando el video como criterio funcional rector. La secuencia correcta es extraer objetivo, ordenar modulos segun la narracion y recien despues traducir esa logica a componentes reales. El asset no debe usarse como inspiracion suelta, sino como regla de prioridades: apertura, confianza, profundizacion y accion. Una buena implementacion conserva esa secuencia y evita sumar bloques que distraigan o rompan el recorrido principal.
 
 **Checklist final de implementacion**
 
-- El orden de modulos implementado coincide con la secuencia que explica la narracion.
-- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
-- La pagina conserva el objetivo de conversion central del asset.
-- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
-- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
+- El orden de modulos sigue la secuencia explicada en la narracion.
+- El primer pantallazo resuelve propuesta de valor, confianza y CTA principal.
+- La pagina mantiene el objetivo de conversion del asset.
+- Desktop y mobile conservan la misma logica funcional.
+- La version final fue validada otra vez contra el video.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2680,7 +2680,7 @@ Este apartado deja explicitamente fuera cualquier lectura funcional no respaldad
 - Duracion real detectada: `341.8 s`.
 - Idioma detectado en la narracion: `en`.
 - Segmentos transcritos: `42`.
-- But the real important thing here, as it is any pre-cell, avatoryl's, listicles, those types of pages, is to make it feel as organic and authentic as possible.
+- But the real important thing here, as it is in any pre-sell, advertorials, listicles and those types of pages, is to make it feel as organic and authentic as possible.
 - It's really important, the on mobile and desktop makes sure that one at least, but hopefully two or three items fit above the fold, because you want people to have a very clear comparison straight away.
 - That you're reviewing and bolting key phrases, you have your overall rating, okay, so you have your overall rating, you have social proofs, so this would be the companies reviews overall, if you can get them.
 - You have an FAQ here that just explains maybe first and foremost more about the actual item's your speaking about, but also about you and the publication itself to give it some authority, and of course we have that call to action that would just pull people back up to the top.
@@ -2692,12 +2692,12 @@ Este apartado deja explicitamente fuera cualquier lectura funcional no respaldad
 ```text
 So, the top X or some people call these review pages, comparison pages, these are not to be confused with listicles.
 Yes, they are in this format, but they are not the same going watch the listicle wire frame breakdown if you want to use a listicle.
-What these pages are, they are exactly the same as far as they are pre-cell, so they help pre-cell your product.
+What these pages are, they are exactly the same as far as they are pre-sell, so they help pre-sell your product.
 But what they do is they compare your products against other products that are on the market and in a very subtle,
 or maybe non-suttle way, they suggest your product is the best versus its competitors.
 So, you can actually run these as a fillet, if, for example, you're getting a fillet commission on other people's products,
 or you can kind of buy a third party site where you can review your products, like I said, against your competitors.
-But the real important thing here, as it is any pre-cell, avatoryl's, listicles, those types of pages,
+But the real important thing here, as it is in any pre-sell, advertorials, listicles and those types of pages,
 is to make it feel as organic and authentic as possible.
 We want people to think that this is, or there should be a kind of an actual site that sits in between ad and sales page,
 that just gives an unbiased opinion on a certain list of comparable products.
@@ -2739,19 +2739,19 @@ La teoria de una Top X page es simplificar decision a traves de comparacion cura
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2849,19 +2849,19 @@ La teoria de una Top X page es simplificar decision a traves de comparacion cura
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2902,19 +2902,19 @@ La teoria de una VSL page es que el video actua como columna vertebral de la ven
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+Se aplica leyendolo como criterio de implementacion y de QA. Primero ordena la logica de la pagina, despues permite contrastarla con los wireframes y finalmente ayuda a validar si la version real conserva prioridad, secuencia y objetivo de conversion. El resultado es una lectura mas util para decidir que respetar, que simplificar y que no deberia perderse al ejecutar.
 
 **Como implementar este archivo**
 
-Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+Se implementa tomando el video como criterio funcional rector. La secuencia correcta es extraer objetivo, ordenar modulos segun la narracion y recien despues traducir esa logica a componentes reales. El asset no debe usarse como inspiracion suelta, sino como regla de prioridades: apertura, confianza, profundizacion y accion. Una buena implementacion conserva esa secuencia y evita sumar bloques que distraigan o rompan el recorrido principal.
 
 **Checklist final de implementacion**
 
-- El orden de modulos implementado coincide con la secuencia que explica la narracion.
-- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
-- La pagina conserva el objetivo de conversion central del asset.
-- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
-- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
+- El orden de modulos sigue la secuencia explicada en la narracion.
+- El primer pantallazo resuelve propuesta de valor, confianza y CTA principal.
+- La pagina mantiene el objetivo de conversion del asset.
+- Desktop y mobile conservan la misma logica funcional.
+- La version final fue validada otra vez contra el video.
 
 **Que se puede verificar dentro del archivo**
 
@@ -2993,19 +2993,19 @@ La teoria de una VSL page es que el video actua como columna vertebral de la ven
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -3042,19 +3042,19 @@ La teoria de una VSL page es que el video actua como columna vertebral de la ven
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -3095,19 +3095,19 @@ La teoria de una webinar page es convertir autoridad y expectativa temporal en a
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+Se aplica leyendolo como criterio de implementacion y de QA. Primero ordena la logica de la pagina, despues permite contrastarla con los wireframes y finalmente ayuda a validar si la version real conserva prioridad, secuencia y objetivo de conversion. El resultado es una lectura mas util para decidir que respetar, que simplificar y que no deberia perderse al ejecutar.
 
 **Como implementar este archivo**
 
-Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+Se implementa tomando el video como criterio funcional rector. La secuencia correcta es extraer objetivo, ordenar modulos segun la narracion y recien despues traducir esa logica a componentes reales. El asset no debe usarse como inspiracion suelta, sino como regla de prioridades: apertura, confianza, profundizacion y accion. Una buena implementacion conserva esa secuencia y evita sumar bloques que distraigan o rompan el recorrido principal.
 
 **Checklist final de implementacion**
 
-- El orden de modulos implementado coincide con la secuencia que explica la narracion.
-- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
-- La pagina conserva el objetivo de conversion central del asset.
-- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
-- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
+- El orden de modulos sigue la secuencia explicada en la narracion.
+- El primer pantallazo resuelve propuesta de valor, confianza y CTA principal.
+- La pagina mantiene el objetivo de conversion del asset.
+- Desktop y mobile conservan la misma logica funcional.
+- La version final fue validada otra vez contra el video.
 
 **Que se puede verificar dentro del archivo**
 
@@ -3182,19 +3182,19 @@ La teoria de una webinar page es convertir autoridad y expectativa temporal en a
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -3250,19 +3250,19 @@ La teoria de una webinar page es convertir autoridad y expectativa temporal en a
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -3322,19 +3322,19 @@ La teoria de una pagina SaaS es traducir complejidad de producto en claridad de 
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+Se aplica leyendolo como criterio de implementacion y de QA. Primero ordena la logica de la pagina, despues permite contrastarla con los wireframes y finalmente ayuda a validar si la version real conserva prioridad, secuencia y objetivo de conversion. El resultado es una lectura mas util para decidir que respetar, que simplificar y que no deberia perderse al ejecutar.
 
 **Como implementar este archivo**
 
-Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+Se implementa tomando el video como criterio funcional rector. La secuencia correcta es extraer objetivo, ordenar modulos segun la narracion y recien despues traducir esa logica a componentes reales. El asset no debe usarse como inspiracion suelta, sino como regla de prioridades: apertura, confianza, profundizacion y accion. Una buena implementacion conserva esa secuencia y evita sumar bloques que distraigan o rompan el recorrido principal.
 
 **Checklist final de implementacion**
 
-- El orden de modulos implementado coincide con la secuencia que explica la narracion.
-- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
-- La pagina conserva el objetivo de conversion central del asset.
-- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
-- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
+- El orden de modulos sigue la secuencia explicada en la narracion.
+- El primer pantallazo resuelve propuesta de valor, confianza y CTA principal.
+- La pagina mantiene el objetivo de conversion del asset.
+- Desktop y mobile conservan la misma logica funcional.
+- La version final fue validada otra vez contra el video.
 
 **Que se puede verificar dentro del archivo**
 
@@ -3401,19 +3401,19 @@ La teoria de una pagina SaaS es traducir complejidad de producto en claridad de 
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -3456,19 +3456,19 @@ La teoria de una pagina SaaS es traducir complejidad de producto en claridad de 
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -3515,19 +3515,19 @@ La teoria de una service page se apoya en confianza, autoridad y claridad de pro
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica mirandolo como guia de implementacion o revision. Primero permite entender la logica general de la pagina, despues sirve para contrastar esa logica con el wireframe estatico y por ultimo ayuda a traducirla a una pagina real. El resultado que da es una lectura mas clara de la jerarquia de secciones, de la prioridad de cada bloque y del tipo de experiencia que el material intenta provocar.
+Se aplica leyendolo como criterio de implementacion y de QA. Primero ordena la logica de la pagina, despues permite contrastarla con los wireframes y finalmente ayuda a validar si la version real conserva prioridad, secuencia y objetivo de conversion. El resultado es una lectura mas util para decidir que respetar, que simplificar y que no deberia perderse al ejecutar.
 
 **Como implementar este archivo**
 
-Se implementa usando este video como criterio rector de la pagina. Primero conviene extraer del audio el objetivo del tramo, despues identificar la secuencia de modulos que la narracion prioriza y por ultimo traducir esa secuencia a componentes reales en desktop y mobile. En implementacion, este asset no deberia tratarse como simple inspiracion visual, sino como guia de prioridades: que tiene que aparecer primero, que debe reforzar confianza, donde conviene empujar el CTA y que contenido cumple funcion de soporte. Una buena implementacion de este archivo deja una pagina que respeta la logica explicada, mantiene foco en conversion y evita agregar bloques que rompan la secuencia principal.
+Se implementa tomando el video como criterio funcional rector. La secuencia correcta es extraer objetivo, ordenar modulos segun la narracion y recien despues traducir esa logica a componentes reales. El asset no debe usarse como inspiracion suelta, sino como regla de prioridades: apertura, confianza, profundizacion y accion. Una buena implementacion conserva esa secuencia y evita sumar bloques que distraigan o rompan el recorrido principal.
 
 **Checklist final de implementacion**
 
-- El orden de modulos implementado coincide con la secuencia que explica la narracion.
-- El above the fold resuelve propuesta de valor, confianza y CTA principal sin ambiguedad.
-- La pagina conserva el objetivo de conversion central del asset.
-- Desktop y mobile respetan la misma logica, aunque cambie el apilado visual.
-- La version final fue contrastada otra vez contra el video y no solo contra memoria o interpretacion propia.
+- El orden de modulos sigue la secuencia explicada en la narracion.
+- El primer pantallazo resuelve propuesta de valor, confianza y CTA principal.
+- La pagina mantiene el objetivo de conversion del asset.
+- Desktop y mobile conservan la misma logica funcional.
+- La version final fue validada otra vez contra el video.
 
 **Que se puede verificar dentro del archivo**
 
@@ -3537,8 +3537,8 @@ Este apartado deja explicitamente fuera cualquier lectura funcional no respaldad
 - Idioma detectado en la narracion: `en`.
 - Segmentos transcritos: `65`.
 - Okay, so this is our service wireframe and this sort of page you would use if you're offering a service a solution and agency page maybe I would also make sure you take a look at the VSL breakdown because typically for paid Media and direct response media of VSL Pages work very very well for services and agency busines
-- I would just have these links, but I would make them scroll to the different sections along that kind of adapted a different Work you have your logo Cool to action really important as I say in the call to action lesson to keep that call to action Consistent but keep it precise what is the one thing you want me to do No
-- This is something I would test as I said the SL's work very very well If you don't want to do a video about the fold then use an image now It depends if you are the service if you are the service then give authority to yourself and make Your business look more credible by actually having a picture of yourself above the
+- I would just have these links, but I would make them scroll to the different sections along that kind of adapted a different Work you have your logo Call to action really important as I say in the call to action lesson to keep that call to action Consistent but keep it precise what is the one thing you want me to do No
+- This is something I would test as I said the VSLs work very very well If you don't want to do a video about the fold then use an image now It depends if you are the service if you are the service then give authority to yourself and make Your business look more credible by actually having a picture of yourself above the
 - So just tell them that's what you want them to do book in free discovery call now Value proposition mentioning the benefits of headline mentions the outcome of working with you as a solution Social proof instead of a boring description break it down into three benefit driven bullet points One clear call to action that 
 - And then really importantly at the bottom Supported with a benefit driven headline trust and social proof another call to action to get them to do exactly What we want based on what the next steps are don't confuse So CTAs don't have a learn more versus a call now versus a book of call have one direct call to action an
 - Okay, not the how But the why you work with that why it benefits you then within that interest action We can go into the features which is the deliverables So this is maybe we do your copywriting We do your design we do your development you okay, okay left them right it with an image that supports it But breakdown is a
@@ -3551,29 +3551,29 @@ a solution and agency page maybe I would also make sure you take a look at the V
 Media and direct response media of VSL
 Pages work very very well for services and agency businesses as well
 However if you are like I'll say a service or an agency and you're just looking for something to put up to a
-Tract new customers this is the framework I would be using so
+attract new customers this is the framework I would be using so
 We're not kind of reinventing the wheel above the fold here
 We have minimal links if I was doing this and I didn't have a full store yet a full site yet
-It's a brochure site. I would just have these links, but I would make them scroll to the different sections along that kind of adapted a different
-Work you have your logo
-Cool to action really important as I say in the call to action lesson to keep that call to action
+It's a brochure site. I would just have these links, but I would make them scroll to the different sections.
+You have your logo
+Call to action really important as I say in the call to action lesson to keep that call to action
 Consistent but keep it precise what is the one thing you want me to do
-Normally as a service of solution is to book in a call. So just tell them that's what you want them to do book in free discovery call now
+Normally as a service or solution the action is to book a call. So just tell them that's what you want them to do: book in a free discovery call now
 Value proposition mentioning the benefits of headline mentions the outcome of working with you as a solution
 Social proof instead of a boring description break it down into three benefit driven bullet points
 One clear call to action that mentions the outcome that you want so book in a free call and back it up with social proof
-I had a freeze discovery call. I worked with X and they generated why okay real picture
-Real first and last name now. This is something I would test as I said the SL's work very very well
+I had a free discovery call. I worked with X and they generated Y, okay, real picture
+Real first and last name now. This is something I would test as I said the VSLs work very very well
 If you don't want to do a video about the fold then use an image now
 It depends if you are the service if you are the service then give authority to yourself and make
 Your business look more credible by actually having a picture of yourself above the fold
 It might be a nice picture of you smiling with your first and last name
 You know cut found or whatever it may be in a signature something like that that just gives that authenticity to your service
 Especially when it comes to agencies and service people don't like dealing with bigger
-agencies they want to fill more of a special day
+agencies they want to feel more like a special client
 want to be less of a number and more of a customer that people care about so putting yourself here works very well as
 Recommended by trusted by if you're recommended or trusted by or just put the top brands you've worked with here
-Then we follow our adapt today to framework so we go to another see-go and watch that
+Then we follow our adapted AIDA-style framework so we go to another see-go and watch that
 page layout
 lesson we go to our transforma
 ```
@@ -3599,19 +3599,19 @@ La teoria de una service page se apoya en confianza, autoridad y claridad de pro
 
 **Como se aplica este archivo y que resultados da**
 
-Se aplica usandolo como referencia estatica durante diseno, maquetado o control visual. Permite revisar como se apilan los modulos, cuanto espacio ocupa cada uno, que jerarquia toma la informacion y como cambia la composicion segun la variante. El resultado que da es una base concreta para comparar versiones, sostener consistencia y detectar rapidamente si una implementacion se aleja del wireframe.
+Se aplica como referencia estatica de layout y control visual. Sirve para validar orden de modulos, densidad, jerarquia y diferencias entre variantes sin depender de interpretaciones generales. El resultado es una base mas precisa para maquetar, comparar pantallas y detectar desalineaciones respecto del wireframe.
 
 **Como implementar este archivo**
 
-Se implementa usando este PDF como referencia visual cerrada para layout, ritmo de lectura y jerarquia de bloques. Conviene recorrerlo de arriba hacia abajo para definir modulos, espaciamiento relativo, densidad de informacion y comportamiento visual de la variante correspondiente. Si existe un video hermano, el PDF deberia servir para aterrizar en pantalla lo que el video explica a nivel conceptual. Una buena implementacion de este archivo deja una version visualmente ordenada, con modulos reconocibles, prioridad clara entre bloques y coherencia entre estructura y objetivo funcional.
+Se implementa usando el PDF como referencia cerrada de layout, ritmo y jerarquia. Conviene leerlo de arriba hacia abajo para fijar modulos, espaciamiento y densidad de la variante correspondiente, usando el video hermano solo como apoyo conceptual cuando exista. Una buena implementacion deja una pantalla ordenada, reconocible y fiel a la estructura visual del asset.
 
 **Checklist final de implementacion**
 
-- Los bloques visibles del PDF estan representados en la implementacion final o tienen una razon documentada para no estarlo.
-- La jerarquia visual respeta el orden de lectura que sugiere la maqueta.
-- La variante implementada corresponde realmente a desktop o mobile segun el archivo fuente.
-- El espaciado, agrupacion de modulos y densidad de contenido no contradicen la composicion del asset.
-- La pantalla final fue comparada visualmente contra el PDF y no solo contra una descripcion textual.
+- Los bloques visibles del PDF estan representados o su ausencia esta justificada.
+- La jerarquia visual respeta el orden de lectura de la maqueta.
+- La variante implementada coincide con el breakpoint del archivo fuente.
+- Espaciado, agrupacion y densidad no contradicen la composicion del asset.
+- La pantalla final fue comparada visualmente contra el PDF.
 
 **Que se puede verificar dentro del archivo**
 
@@ -3642,6 +3642,18 @@ Feat
                       ures
 ```
 
+## Matriz comparativa final por objetivo de negocio
+
+| Objetivo de negocio | Tipos de archivo/familia mas utiles | Funcion principal | Momento del funnel | Riesgo si se implementa mal |
+| --- | --- | --- | --- | --- |
+| Presentar marca y llevar a paginas de dinero | Homepage | Ordenar propuesta de valor, confianza y navegacion priorizada | Descubrimiento | Home linda pero dispersa, sin direccion comercial clara |
+| Cerrar venta de un producto | Product page, Cart draw | Reducir objeciones y sostener accion de compra | Consideracion y compra | Mucha informacion, poca persuasion o friccion al agregar/comprar |
+| Ayudar a explorar catalogo | Collections page | Organizar opciones y acelerar hallazgo de producto correcto | Descubrimiento y consideracion | Navegacion confusa, exceso de opciones o baja escaneabilidad |
+| Persuadir en una pagina larga | Sales page, VSL page, Webinar | Construir argumento secuencial hasta la accion | Consideracion profunda y cierre | Pagina larga sin progresion, con objeciones mal resueltas |
+| Precalentar trafico frio | Listicle page, Advertorial page, Top X page | Educar, comparar o narrar antes de vender directo | Awareness y consideracion | Contenido que parece editorial pero no empuja decision |
+| Capturar datos o segmentar interes | Lead generation page, Multistep lead generation page, Opt-In pages, Quiz page | Intercambiar valor por dato y preparar el siguiente paso | Captura | Formularios pesados, promesa debil o perdida de foco |
+| Vender servicio o software | Service, SaaS | Traducir oferta intangible en confianza, claridad y accion | Consideracion y contacto/demo | Oferta poco concreta, CTA difuso o autoridad insuficiente |
+
 ## Conclusión
 
-Leído archivo por archivo, el Drive funciona como una biblioteca de patrones de paginas de conversion. Los videos son la capa explicativa y los PDFs la capa estatica de referencia. La señal mas rica aparece en las narraciones; los PDFs sirven para fijar layout, breakpoint o estado especifico de cada pantalla.
+Leído archivo por archivo, el Drive funciona como una biblioteca de patrones de paginas de conversion. Los videos son la capa explicativa y los PDFs la capa estatica de referencia. La señal mas rica aparece en las narraciones; los PDFs sirven para fijar layout, breakpoint o estado especifico de cada pantalla. La matriz final resume para que sirve cada familia segun objetivo de negocio y ayuda a elegir mas rapido que patron conviene usar en una implementacion real.
